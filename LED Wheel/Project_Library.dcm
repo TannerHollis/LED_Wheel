@@ -4,4 +4,10 @@ $CMP PCA9745
 D 16-channel SPI serial bus 57 mA/20 V constant current LED driver
 $ENDCMP
 #
+$CMP RT9083-33GJ5
+D 30μA IQ, 250mA Low-Dropout Linear Regulator
+K LDO 3.3V Regulator
+F https://www.richtek.com/assets/product_file/RT9083/DS9083-01T00.pdf
+$ENDCMP
+#
 #End Doc Library
