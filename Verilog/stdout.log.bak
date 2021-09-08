@@ -1,0 +1,80 @@
+Running in Lattice mode
+
+
+Starting:    C:\lscc\iCEcube2.2020.12\synpbase\bin64\mbin\synbatch.exe
+Install:     C:\lscc\iCEcube2.2020.12\synpbase
+Hostname:    THOLLIS2-LT
+Date:        Thu Mar 25 09:51:23 2021
+Version:     L-2016.09L+ice40
+
+Arguments:   -product synplify_pro -batch LEDWheel_syn.prj
+ProductType: synplify_pro
+
+
+
+
+
+log file: "C:\Users\thollis\Google Drive\LED Wheel\LEDWheel\LEDWheel_Implmnt\LEDWheel.srr"
+Running: LEDWheel_Implmnt in foreground
+
+Running LEDWheel_syn|LEDWheel_Implmnt
+
+Running: compile (Compile) on LEDWheel_syn|LEDWheel_Implmnt
+# Thu Mar 25 09:51:23 2021
+
+Running: compile_flow (Compile Process) on LEDWheel_syn|LEDWheel_Implmnt
+# Thu Mar 25 09:51:23 2021
+
+Running: compiler (Compile Input) on LEDWheel_syn|LEDWheel_Implmnt
+# Thu Mar 25 09:51:23 2021
+Copied C:\Users\thollis\Google Drive\LED Wheel\LEDWheel\LEDWheel_Implmnt\synwork\LEDWheel_comp.srs to C:\Users\thollis\Google Drive\LED Wheel\LEDWheel\LEDWheel_Implmnt\LEDWheel.srs
+
+compiler completed
+# Thu Mar 25 09:51:25 2021
+
+Return Code: 0
+Run Time:00h:00m:02s
+
+Running: multi_srs_gen (Multi-srs Generator) on LEDWheel_syn|LEDWheel_Implmnt
+# Thu Mar 25 09:51:25 2021
+
+multi_srs_gen completed
+# Thu Mar 25 09:51:25 2021
+
+Return Code: 0
+Run Time:00h:00m:00s
+Copied C:\Users\thollis\Google Drive\LED Wheel\LEDWheel\LEDWheel_Implmnt\synwork\LEDWheel_mult.srs to C:\Users\thollis\Google Drive\LED Wheel\LEDWheel\LEDWheel_Implmnt\LEDWheel.srs
+Complete: Compile Process on LEDWheel_syn|LEDWheel_Implmnt
+
+Running: premap (Pre-mapping) on LEDWheel_syn|LEDWheel_Implmnt
+# Thu Mar 25 09:51:25 2021
+
+premap completed with warnings
+# Thu Mar 25 09:51:25 2021
+
+Return Code: 1
+Run Time:00h:00m:00s
+Complete: Compile on LEDWheel_syn|LEDWheel_Implmnt
+
+Running: map (Map) on LEDWheel_syn|LEDWheel_Implmnt
+# Thu Mar 25 09:51:25 2021
+License granted for 4 parallel jobs
+
+Running: fpga_mapper (Map & Optimize) on LEDWheel_syn|LEDWheel_Implmnt
+# Thu Mar 25 09:51:25 2021
+fpga_mapper exited with errors
+Job failed on: LEDWheel_syn|LEDWheel_Implmnt
+
+Job: "fpga_mapper" terminated with error status: 2
+See log file: "C:\Users\thollis\Google Drive\LED Wheel\LEDWheel\LEDWheel_Implmnt\synlog\LEDWheel_fpga_mapper.srr"
+# Thu Mar 25 09:51:26 2021
+
+Return Code: 2
+Run Time:00h:00m:01s
+Complete: Map on LEDWheel_syn|LEDWheel_Implmnt
+Complete: Logic Synthesis on LEDWheel_syn|LEDWheel_Implmnt
+
+exit status=2
+
+exit status=2
+

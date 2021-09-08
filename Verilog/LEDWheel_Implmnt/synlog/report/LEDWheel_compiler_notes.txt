@@ -1,0 +1,8 @@
+@N|Running in 64-bit mode
+@N|Running in 64-bit mode
+@N: CG364 :"C:\lscc\iCEcube2.2020.12\synpbase\lib\generic\sb_ice40.v":752:7:752:18|Synthesizing module SB_PLL40_PAD in library work.
+@N: CG364 :"C:\Users\thollis\Google Drive\LED Wheel\LEDWheel\LEDWheel_pll.v":1:7:1:18|Synthesizing module LEDWheel_pll in library work.
+@N|Running in 64-bit mode
+@N: NF107 :"C:\Users\thollis\Google Drive\LED Wheel\LEDWheel\LEDWheel_pll.v":1:7:1:18|Selected library: work cell: LEDWheel_pll view verilog as top level
+@N: NF107 :"C:\Users\thollis\Google Drive\LED Wheel\LEDWheel\LEDWheel_pll.v":1:7:1:18|Selected library: work cell: LEDWheel_pll view verilog as top level
+

@@ -1,0 +1,52 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 4
+Title "LED Wheel"
+Date "12/01/2020"
+Rev "A1"
+Comp "Gamer Mod Kits"
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Sheet
+S 9225 4250 1050 875 
+U 613B6C1F
+F0 "Red LED Controller" 50
+F1 "R_LED_Controller.sch" 50
+F2 "~CS~_RED" I L 9225 4375 50 
+F3 "SPI1_MOSI" I L 9225 4500 50 
+F4 "SPI1_CLK" I L 9225 4750 50 
+F5 "~OE~" I L 9225 4875 50 
+F6 "~RESET~" I L 9225 5000 50 
+F7 "SPI1_MISO" O L 9225 4625 50 
+$EndSheet
+$Sheet
+S 9225 2950 1050 875 
+U 6149839C
+F0 "Green LED Controller" 50
+F1 "G_LED_Controller.sch" 50
+F2 "~CS~_GREEN" I L 9225 3075 50 
+F3 "SPI1_MOSI" I L 9225 3200 50 
+F4 "SPI1_CLK" I L 9225 3450 50 
+F5 "~OE~" I L 9225 3575 50 
+F6 "~RESET~" I L 9225 3700 50 
+F7 "SPI1_MISO" O L 9225 3325 50 
+$EndSheet
+$Sheet
+S 9225 1650 1050 875 
+U 614BE344
+F0 "Blue LED Controller" 50
+F1 "B_LED_Controller.sch" 50
+F2 "~CS~_BLUE" I L 9225 1775 50 
+F3 "SPI1_MOSI" I L 9225 1900 50 
+F4 "SPI1_CLK" I L 9225 2150 50 
+F5 "~OE~" I L 9225 2275 50 
+F6 "~RESET~" I L 9225 2400 50 
+F7 "SPI1_MISO" O L 9225 2025 50 
+$EndSheet
+$EndSCHEMATC

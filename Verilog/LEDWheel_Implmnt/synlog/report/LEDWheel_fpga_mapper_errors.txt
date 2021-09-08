@@ -1,0 +1,1 @@
+@E: FX751 :"c:\users\thollis\google drive\led wheel\ledwheel\ledwheel_pll.v":11:13:11:29|PLL count of 1 not supported on a single device 

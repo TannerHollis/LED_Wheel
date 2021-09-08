@@ -1,0 +1,7 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP PCA9745
+D 16-channel SPI serial bus 57 mA/20 V constant current LED driver
+$ENDCMP
+#
+#End Doc Library

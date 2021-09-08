@@ -1,0 +1,27 @@
+#OPTIONS:"|-layerid|0|-orig_srs|C:\\Users\\thollis\\Google Drive\\LED Wheel\\LEDWheel\\LEDWheel_Implmnt\\synwork\\LEDWheel_comp.srs|-prodtype|synplify_pro|-primux|-fixsmult|-infer_seqShift|-ice|-sdff_counter|-nram|-divnmod|-nostructver|-I|C:\\Users\\thollis\\Google Drive\\LED Wheel\\LEDWheel\\|-I|C:\\lscc\\iCEcube2.2020.12\\synpbase\\lib|-v2001|-devicelib|C:\\lscc\\iCEcube2.2020.12\\synpbase\\lib\\generic\\sb_ice40.v|-encrypt|-pro|-ui|-fid2|-ram|-sharing|on|-ll|2000|-autosm|-lib|work|-lib|work|-lib|work"
+#CUR:"C:\\lscc\\iCEcube2.2020.12\\synpbase\\bin64\\c_ver.exe":1616630332
+#CUR:"C:\\lscc\\iCEcube2.2020.12\\synpbase\\lib\\generic\\sb_ice40.v":1616630334
+#CUR:"C:\\lscc\\iCEcube2.2020.12\\synpbase\\lib\\vlog\\hypermods.v":1616630336
+#CUR:"C:\\lscc\\iCEcube2.2020.12\\synpbase\\lib\\vlog\\umr_capim.v":1616630336
+#CUR:"C:\\lscc\\iCEcube2.2020.12\\synpbase\\lib\\vlog\\scemi_objects.v":1616630336
+#CUR:"C:\\lscc\\iCEcube2.2020.12\\synpbase\\lib\\vlog\\scemi_pipes.svh":1616630336
+#CUR:"C:\\Users\\thollis\\Google Drive\\LED Wheel\\LEDWheel\\LED_Wheel.v":1616683902
+#CUR:"C:\\Users\\thollis\\Google Drive\\LED Wheel\\LEDWheel\\spi_in.v":1616682391
+#CUR:"C:\\Users\\thollis\\Google Drive\\LED Wheel\\LEDWheel\\LEDWheel_pll.v":1616679152
+#numinternalfiles:5
+#defaultlanguage:verilog
+0			"C:\Users\thollis\Google Drive\LED Wheel\LEDWheel\LED_Wheel.v" verilog
+1			"C:\Users\thollis\Google Drive\LED Wheel\LEDWheel\spi_in.v" verilog
+2			"C:\Users\thollis\Google Drive\LED Wheel\LEDWheel\LEDWheel_pll.v" verilog
+#Dependency Lists(Uses List)
+0 1
+1 -1
+2 -1
+#Dependency Lists(Users Of)
+0 -1
+1 0
+2 -1
+#Design Unit to File Association
+module work spi_in 1
+module work LED_Wheel 0
+module work LEDWheel_pll 2

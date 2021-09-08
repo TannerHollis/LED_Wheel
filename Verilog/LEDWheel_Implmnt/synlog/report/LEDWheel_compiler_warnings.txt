@@ -1,0 +1,6 @@
+@W: CG781 :"C:\Users\thollis\Google Drive\LED Wheel\LEDWheel\LEDWheel_pll.v":14:43:14:43|Input EXTFEEDBACK on instance LEDWheel_pll_inst is undriven; assigning to 0.  Simulation mismatch possible. Either assign the input or remove the declaration. 
+@W: CG781 :"C:\Users\thollis\Google Drive\LED Wheel\LEDWheel\LEDWheel_pll.v":15:44:15:44|Input DYNAMICDELAY on instance LEDWheel_pll_inst is undriven; assigning to 0.  Simulation mismatch possible. Either assign the input or remove the declaration. 
+@W: CG781 :"C:\Users\thollis\Google Drive\LED Wheel\LEDWheel\LEDWheel_pll.v":18:47:18:47|Input LATCHINPUTVALUE on instance LEDWheel_pll_inst is undriven; assigning to 0.  Simulation mismatch possible. Either assign the input or remove the declaration. 
+@W: CG781 :"C:\Users\thollis\Google Drive\LED Wheel\LEDWheel\LEDWheel_pll.v":20:35:20:35|Input SDI on instance LEDWheel_pll_inst is undriven; assigning to 0.  Simulation mismatch possible. Either assign the input or remove the declaration. 
+@W: CG781 :"C:\Users\thollis\Google Drive\LED Wheel\LEDWheel\LEDWheel_pll.v":22:36:22:36|Input SCLK on instance LEDWheel_pll_inst is undriven; assigning to 0.  Simulation mismatch possible. Either assign the input or remove the declaration. 
+

@@ -1,0 +1,2062 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 4 4
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L Project_Library:PCA9745 U?
+U 1 1 613C28C5
+P 3000 1875
+AR Path="/613C28C5" Ref="U?"  Part="1" 
+AR Path="/613B6C1F/613C28C5" Ref="U?"  Part="1" 
+AR Path="/6149839C/613C28C5" Ref="U?"  Part="1" 
+AR Path="/614BE344/613C28C5" Ref="U?"  Part="1" 
+F 0 "U?" H 3000 2840 50  0000 C CNN
+F 1 "PCA9745" H 3000 2749 50  0000 C CNN
+F 2 "Package_SO:HTSSOP-28-1EP_4.4x9.7mm_P0.65mm_EP2.85x5.4mm" H 3000 375 50  0001 C CNN
+F 3 "" H 3000 2750 50  0001 C CNN
+	1    3000 1875
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:LED D?
+U 1 1 613C28CB
+P 4525 1150
+AR Path="/613C28CB" Ref="D?"  Part="1" 
+AR Path="/613B6C1F/613C28CB" Ref="D?"  Part="1" 
+AR Path="/6149839C/613C28CB" Ref="D?"  Part="1" 
+AR Path="/614BE344/613C28CB" Ref="D?"  Part="1" 
+F 0 "D?" H 4518 1367 50  0000 C CNN
+F 1 "B_LED" H 4518 1276 50  0000 C CNN
+F 2 "LED_SMD:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 4525 1150 50  0001 C CNN
+F 3 "~" H 4525 1150 50  0001 C CNN
+	1    4525 1150
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+12V #PWR?
+U 1 1 613C28D1
+P 4750 950
+AR Path="/613C28D1" Ref="#PWR?"  Part="1" 
+AR Path="/613B6C1F/613C28D1" Ref="#PWR?"  Part="1" 
+AR Path="/6149839C/613C28D1" Ref="#PWR?"  Part="1" 
+AR Path="/614BE344/613C28D1" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 4750 800 50  0001 C CNN
+F 1 "+12V" H 4765 1123 50  0000 C CNN
+F 2 "" H 4750 950 50  0001 C CNN
+F 3 "" H 4750 950 50  0001 C CNN
+	1    4750 950 
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4750 950  4750 1150
+Wire Wire Line
+	4750 1150 4675 1150
+Wire Wire Line
+	3375 1150 4375 1150
+$Comp
+L Device:LED D?
+U 1 1 613C28DA
+P 4250 1250
+AR Path="/613C28DA" Ref="D?"  Part="1" 
+AR Path="/613B6C1F/613C28DA" Ref="D?"  Part="1" 
+AR Path="/6149839C/613C28DA" Ref="D?"  Part="1" 
+AR Path="/614BE344/613C28DA" Ref="D?"  Part="1" 
+F 0 "D?" H 4243 1467 50  0000 C CNN
+F 1 "B_LED" H 4243 1376 50  0000 C CNN
+F 2 "LED_SMD:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 4250 1250 50  0001 C CNN
+F 3 "~" H 4250 1250 50  0001 C CNN
+	1    4250 1250
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4750 1250 4400 1250
+Wire Wire Line
+	3375 1250 4100 1250
+Wire Wire Line
+	3375 1450 3550 1450
+$Comp
+L Device:LED D?
+U 1 1 613C28E3
+P 3975 1350
+AR Path="/613C28E3" Ref="D?"  Part="1" 
+AR Path="/613B6C1F/613C28E3" Ref="D?"  Part="1" 
+AR Path="/6149839C/613C28E3" Ref="D?"  Part="1" 
+AR Path="/614BE344/613C28E3" Ref="D?"  Part="1" 
+F 0 "D?" H 3968 1567 50  0000 C CNN
+F 1 "B_LED" H 3968 1476 50  0000 C CNN
+F 2 "LED_SMD:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 3975 1350 50  0001 C CNN
+F 3 "~" H 3975 1350 50  0001 C CNN
+	1    3975 1350
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:LED D?
+U 1 1 613C28E9
+P 3700 1450
+AR Path="/613C28E9" Ref="D?"  Part="1" 
+AR Path="/613B6C1F/613C28E9" Ref="D?"  Part="1" 
+AR Path="/6149839C/613C28E9" Ref="D?"  Part="1" 
+AR Path="/614BE344/613C28E9" Ref="D?"  Part="1" 
+F 0 "D?" H 3693 1667 50  0000 C CNN
+F 1 "B_LED" H 3693 1576 50  0000 C CNN
+F 2 "LED_SMD:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 3700 1450 50  0001 C CNN
+F 3 "~" H 3700 1450 50  0001 C CNN
+	1    3700 1450
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3375 1350 3825 1350
+Wire Wire Line
+	3850 1450 4750 1450
+Wire Wire Line
+	4750 1450 4750 1350
+Connection ~ 4750 1150
+Connection ~ 4750 1250
+Wire Wire Line
+	4750 1250 4750 1150
+Wire Wire Line
+	4125 1350 4750 1350
+Connection ~ 4750 1350
+Wire Wire Line
+	4750 1350 4750 1250
+$Comp
+L Device:LED D?
+U 1 1 613C28F8
+P 4525 1550
+AR Path="/613C28F8" Ref="D?"  Part="1" 
+AR Path="/613B6C1F/613C28F8" Ref="D?"  Part="1" 
+AR Path="/6149839C/613C28F8" Ref="D?"  Part="1" 
+AR Path="/614BE344/613C28F8" Ref="D?"  Part="1" 
+F 0 "D?" H 4518 1767 50  0000 C CNN
+F 1 "B_LED" H 4518 1676 50  0000 C CNN
+F 2 "LED_SMD:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 4525 1550 50  0001 C CNN
+F 3 "~" H 4525 1550 50  0001 C CNN
+	1    4525 1550
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3375 1550 4375 1550
+$Comp
+L Device:LED D?
+U 1 1 613C28FF
+P 4250 1650
+AR Path="/613C28FF" Ref="D?"  Part="1" 
+AR Path="/613B6C1F/613C28FF" Ref="D?"  Part="1" 
+AR Path="/6149839C/613C28FF" Ref="D?"  Part="1" 
+AR Path="/614BE344/613C28FF" Ref="D?"  Part="1" 
+F 0 "D?" H 4243 1867 50  0000 C CNN
+F 1 "B_LED" H 4243 1776 50  0000 C CNN
+F 2 "LED_SMD:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 4250 1650 50  0001 C CNN
+F 3 "~" H 4250 1650 50  0001 C CNN
+	1    4250 1650
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4750 1650 4400 1650
+Wire Wire Line
+	3375 1650 4100 1650
+Wire Wire Line
+	3375 1850 3550 1850
+$Comp
+L Device:LED D?
+U 1 1 613C2908
+P 3975 1750
+AR Path="/613C2908" Ref="D?"  Part="1" 
+AR Path="/613B6C1F/613C2908" Ref="D?"  Part="1" 
+AR Path="/6149839C/613C2908" Ref="D?"  Part="1" 
+AR Path="/614BE344/613C2908" Ref="D?"  Part="1" 
+F 0 "D?" H 3968 1967 50  0000 C CNN
+F 1 "B_LED" H 3968 1876 50  0000 C CNN
+F 2 "LED_SMD:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 3975 1750 50  0001 C CNN
+F 3 "~" H 3975 1750 50  0001 C CNN
+	1    3975 1750
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:LED D?
+U 1 1 613C290E
+P 3700 1850
+AR Path="/613C290E" Ref="D?"  Part="1" 
+AR Path="/613B6C1F/613C290E" Ref="D?"  Part="1" 
+AR Path="/6149839C/613C290E" Ref="D?"  Part="1" 
+AR Path="/614BE344/613C290E" Ref="D?"  Part="1" 
+F 0 "D?" H 3693 2067 50  0000 C CNN
+F 1 "B_LED" H 3693 1976 50  0000 C CNN
+F 2 "LED_SMD:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 3700 1850 50  0001 C CNN
+F 3 "~" H 3700 1850 50  0001 C CNN
+	1    3700 1850
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3375 1750 3825 1750
+Wire Wire Line
+	3850 1850 4750 1850
+Wire Wire Line
+	4125 1750 4750 1750
+$Comp
+L Device:LED D?
+U 1 1 613C2917
+P 4525 1950
+AR Path="/613C2917" Ref="D?"  Part="1" 
+AR Path="/613B6C1F/613C2917" Ref="D?"  Part="1" 
+AR Path="/6149839C/613C2917" Ref="D?"  Part="1" 
+AR Path="/614BE344/613C2917" Ref="D?"  Part="1" 
+F 0 "D?" H 4518 2167 50  0000 C CNN
+F 1 "B_LED" H 4518 2076 50  0000 C CNN
+F 2 "LED_SMD:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 4525 1950 50  0001 C CNN
+F 3 "~" H 4525 1950 50  0001 C CNN
+	1    4525 1950
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4750 1950 4675 1950
+Wire Wire Line
+	3375 1950 4375 1950
+$Comp
+L Device:LED D?
+U 1 1 613C291F
+P 4250 2050
+AR Path="/613C291F" Ref="D?"  Part="1" 
+AR Path="/613B6C1F/613C291F" Ref="D?"  Part="1" 
+AR Path="/6149839C/613C291F" Ref="D?"  Part="1" 
+AR Path="/614BE344/613C291F" Ref="D?"  Part="1" 
+F 0 "D?" H 4243 2267 50  0000 C CNN
+F 1 "B_LED" H 4243 2176 50  0000 C CNN
+F 2 "LED_SMD:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 4250 2050 50  0001 C CNN
+F 3 "~" H 4250 2050 50  0001 C CNN
+	1    4250 2050
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4750 2050 4400 2050
+Wire Wire Line
+	3375 2050 4100 2050
+$Comp
+L Device:LED D?
+U 1 1 613C2927
+P 3975 2150
+AR Path="/613C2927" Ref="D?"  Part="1" 
+AR Path="/613B6C1F/613C2927" Ref="D?"  Part="1" 
+AR Path="/6149839C/613C2927" Ref="D?"  Part="1" 
+AR Path="/614BE344/613C2927" Ref="D?"  Part="1" 
+F 0 "D?" H 3968 2367 50  0000 C CNN
+F 1 "B_LED" H 3968 2276 50  0000 C CNN
+F 2 "LED_SMD:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 3975 2150 50  0001 C CNN
+F 3 "~" H 3975 2150 50  0001 C CNN
+	1    3975 2150
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:LED D?
+U 1 1 613C292D
+P 3700 2250
+AR Path="/613C292D" Ref="D?"  Part="1" 
+AR Path="/613B6C1F/613C292D" Ref="D?"  Part="1" 
+AR Path="/6149839C/613C292D" Ref="D?"  Part="1" 
+AR Path="/614BE344/613C292D" Ref="D?"  Part="1" 
+F 0 "D?" H 3693 2467 50  0000 C CNN
+F 1 "B_LED" H 3693 2376 50  0000 C CNN
+F 2 "LED_SMD:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 3700 2250 50  0001 C CNN
+F 3 "~" H 3700 2250 50  0001 C CNN
+	1    3700 2250
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3375 2150 3825 2150
+Wire Wire Line
+	3850 2250 4750 2250
+Wire Wire Line
+	4125 2150 4750 2150
+$Comp
+L Device:LED D?
+U 1 1 613C2936
+P 4525 2350
+AR Path="/613C2936" Ref="D?"  Part="1" 
+AR Path="/613B6C1F/613C2936" Ref="D?"  Part="1" 
+AR Path="/6149839C/613C2936" Ref="D?"  Part="1" 
+AR Path="/614BE344/613C2936" Ref="D?"  Part="1" 
+F 0 "D?" H 4518 2567 50  0000 C CNN
+F 1 "B_LED" H 4518 2476 50  0000 C CNN
+F 2 "LED_SMD:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 4525 2350 50  0001 C CNN
+F 3 "~" H 4525 2350 50  0001 C CNN
+	1    4525 2350
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3375 2350 4375 2350
+$Comp
+L Device:LED D?
+U 1 1 613C293D
+P 4250 2450
+AR Path="/613C293D" Ref="D?"  Part="1" 
+AR Path="/613B6C1F/613C293D" Ref="D?"  Part="1" 
+AR Path="/6149839C/613C293D" Ref="D?"  Part="1" 
+AR Path="/614BE344/613C293D" Ref="D?"  Part="1" 
+F 0 "D?" H 4243 2667 50  0000 C CNN
+F 1 "B_LED" H 4243 2576 50  0000 C CNN
+F 2 "LED_SMD:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 4250 2450 50  0001 C CNN
+F 3 "~" H 4250 2450 50  0001 C CNN
+	1    4250 2450
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4750 2450 4400 2450
+Wire Wire Line
+	3375 2450 4100 2450
+$Comp
+L Device:LED D?
+U 1 1 613C2945
+P 3975 2550
+AR Path="/613C2945" Ref="D?"  Part="1" 
+AR Path="/613B6C1F/613C2945" Ref="D?"  Part="1" 
+AR Path="/6149839C/613C2945" Ref="D?"  Part="1" 
+AR Path="/614BE344/613C2945" Ref="D?"  Part="1" 
+F 0 "D?" H 3968 2767 50  0000 C CNN
+F 1 "B_LED" H 3968 2676 50  0000 C CNN
+F 2 "LED_SMD:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 3975 2550 50  0001 C CNN
+F 3 "~" H 3975 2550 50  0001 C CNN
+	1    3975 2550
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:LED D?
+U 1 1 613C294B
+P 3700 2650
+AR Path="/613C294B" Ref="D?"  Part="1" 
+AR Path="/613B6C1F/613C294B" Ref="D?"  Part="1" 
+AR Path="/6149839C/613C294B" Ref="D?"  Part="1" 
+AR Path="/614BE344/613C294B" Ref="D?"  Part="1" 
+F 0 "D?" H 3693 2867 50  0000 C CNN
+F 1 "B_LED" H 3693 2776 50  0000 C CNN
+F 2 "LED_SMD:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 3700 2650 50  0001 C CNN
+F 3 "~" H 3700 2650 50  0001 C CNN
+	1    3700 2650
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3375 2550 3825 2550
+Wire Wire Line
+	3850 2650 4750 2650
+Wire Wire Line
+	4125 2550 4750 2550
+Wire Wire Line
+	3550 2250 3375 2250
+Wire Wire Line
+	4675 1550 4750 1550
+Wire Wire Line
+	4750 1550 4750 1450
+Connection ~ 4750 1450
+Wire Wire Line
+	4750 1550 4750 1650
+Connection ~ 4750 1550
+Connection ~ 4750 1650
+Wire Wire Line
+	4750 1650 4750 1750
+Connection ~ 4750 1750
+Wire Wire Line
+	4750 1750 4750 1850
+Connection ~ 4750 1850
+Wire Wire Line
+	4750 1850 4750 1950
+Connection ~ 4750 1950
+Wire Wire Line
+	4750 1950 4750 2050
+Connection ~ 4750 2050
+Wire Wire Line
+	4750 2050 4750 2150
+Connection ~ 4750 2150
+Wire Wire Line
+	4750 2150 4750 2250
+Connection ~ 4750 2250
+Wire Wire Line
+	4750 2250 4750 2350
+Connection ~ 4750 2450
+Wire Wire Line
+	4750 2450 4750 2550
+Connection ~ 4750 2550
+Wire Wire Line
+	4750 2550 4750 2650
+Wire Wire Line
+	3550 2650 3375 2650
+$Comp
+L power:GND #PWR?
+U 1 1 613C296D
+P 3000 3325
+AR Path="/613C296D" Ref="#PWR?"  Part="1" 
+AR Path="/613B6C1F/613C296D" Ref="#PWR?"  Part="1" 
+AR Path="/6149839C/613C296D" Ref="#PWR?"  Part="1" 
+AR Path="/614BE344/613C296D" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 3000 3075 50  0001 C CNN
+F 1 "GND" H 3005 3152 50  0000 C CNN
+F 2 "" H 3000 3325 50  0001 C CNN
+F 3 "" H 3000 3325 50  0001 C CNN
+	1    3000 3325
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3000 3325 3000 3175
+$Comp
+L Device:C C?
+U 1 1 613C2974
+P 1850 1450
+AR Path="/613C2974" Ref="C?"  Part="1" 
+AR Path="/613B6C1F/613C2974" Ref="C?"  Part="1" 
+AR Path="/6149839C/613C2974" Ref="C?"  Part="1" 
+AR Path="/614BE344/613C2974" Ref="C?"  Part="1" 
+F 0 "C?" V 1598 1450 50  0000 C CNN
+F 1 "100N" V 1689 1450 50  0000 C CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder" H 1888 1300 50  0001 C CNN
+F 3 "~" H 1850 1450 50  0001 C CNN
+	1    1850 1450
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 613C297A
+P 1850 1675
+AR Path="/613C297A" Ref="#PWR?"  Part="1" 
+AR Path="/613B6C1F/613C297A" Ref="#PWR?"  Part="1" 
+AR Path="/6149839C/613C297A" Ref="#PWR?"  Part="1" 
+AR Path="/614BE344/613C297A" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 1850 1425 50  0001 C CNN
+F 1 "GND" H 1855 1502 50  0000 C CNN
+F 2 "" H 1850 1675 50  0001 C CNN
+F 3 "" H 1850 1675 50  0001 C CNN
+	1    1850 1675
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1850 1675 1850 1600
+Wire Wire Line
+	1850 1300 1850 1150
+Wire Wire Line
+	1850 1150 2625 1150
+Wire Wire Line
+	4675 2350 4750 2350
+Connection ~ 4750 2350
+Wire Wire Line
+	4750 2350 4750 2450
+$Comp
+L Device:R R?
+U 1 1 613C298C
+P 2425 3000
+AR Path="/613C298C" Ref="R?"  Part="1" 
+AR Path="/613B6C1F/613C298C" Ref="R?"  Part="1" 
+AR Path="/6149839C/613C298C" Ref="R?"  Part="1" 
+AR Path="/614BE344/613C298C" Ref="R?"  Part="1" 
+F 0 "R?" H 2495 3046 50  0000 L CNN
+F 1 "3K" H 2495 2955 50  0000 L CNN
+F 2 "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder" V 2355 3000 50  0001 C CNN
+F 3 "~" H 2425 3000 50  0001 C CNN
+	1    2425 3000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2625 2775 2425 2775
+Wire Wire Line
+	2425 2775 2425 2850
+$Comp
+L power:GND #PWR?
+U 1 1 613C2994
+P 2425 3325
+AR Path="/613C2994" Ref="#PWR?"  Part="1" 
+AR Path="/613B6C1F/613C2994" Ref="#PWR?"  Part="1" 
+AR Path="/6149839C/613C2994" Ref="#PWR?"  Part="1" 
+AR Path="/614BE344/613C2994" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 2425 3075 50  0001 C CNN
+F 1 "GND" H 2430 3152 50  0000 C CNN
+F 2 "" H 2425 3325 50  0001 C CNN
+F 3 "" H 2425 3325 50  0001 C CNN
+	1    2425 3325
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2425 3325 2425 3150
+$Comp
+L power:+3.3V #PWR?
+U 1 1 613C299B
+P 1850 1050
+AR Path="/613C299B" Ref="#PWR?"  Part="1" 
+AR Path="/613B6C1F/613C299B" Ref="#PWR?"  Part="1" 
+AR Path="/6149839C/613C299B" Ref="#PWR?"  Part="1" 
+AR Path="/614BE344/613C299B" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 1850 900 50  0001 C CNN
+F 1 "+3.3V" H 1865 1223 50  0000 C CNN
+F 2 "" H 1850 1050 50  0001 C CNN
+F 3 "" H 1850 1050 50  0001 C CNN
+	1    1850 1050
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1850 1050 1850 1150
+Connection ~ 1850 1150
+Text HLabel 2550 1800 0    50   Input ~ 0
+~CS~_BLUE
+Wire Wire Line
+	2550 1800 2625 1800
+Text HLabel 2550 1900 0    50   Input ~ 0
+SPI1_MOSI
+Wire Wire Line
+	2550 1900 2625 1900
+Text HLabel 2550 2100 0    50   Input ~ 0
+SPI1_CLK
+Wire Wire Line
+	2550 2100 2625 2100
+Text HLabel 2550 2200 0    50   Input ~ 0
+~OE~
+Text HLabel 2550 2300 0    50   Input ~ 0
+~RESET~
+Wire Wire Line
+	2550 2300 2625 2300
+Wire Wire Line
+	2625 2200 2550 2200
+$Comp
+L Project_Library:PCA9745 U?
+U 1 1 613D167F
+P 3000 4625
+AR Path="/613D167F" Ref="U?"  Part="1" 
+AR Path="/613B6C1F/613D167F" Ref="U?"  Part="1" 
+AR Path="/6149839C/613D167F" Ref="U?"  Part="1" 
+AR Path="/614BE344/613D167F" Ref="U?"  Part="1" 
+F 0 "U?" H 3000 5590 50  0000 C CNN
+F 1 "PCA9745" H 3000 5499 50  0000 C CNN
+F 2 "Package_SO:HTSSOP-28-1EP_4.4x9.7mm_P0.65mm_EP2.85x5.4mm" H 3000 3125 50  0001 C CNN
+F 3 "" H 3000 5500 50  0001 C CNN
+	1    3000 4625
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:LED D?
+U 1 1 613D18F5
+P 4525 3900
+AR Path="/613D18F5" Ref="D?"  Part="1" 
+AR Path="/613B6C1F/613D18F5" Ref="D?"  Part="1" 
+AR Path="/6149839C/613D18F5" Ref="D?"  Part="1" 
+AR Path="/614BE344/613D18F5" Ref="D?"  Part="1" 
+F 0 "D?" H 4518 4117 50  0000 C CNN
+F 1 "B_LED" H 4518 4026 50  0000 C CNN
+F 2 "LED_SMD:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 4525 3900 50  0001 C CNN
+F 3 "~" H 4525 3900 50  0001 C CNN
+	1    4525 3900
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+12V #PWR?
+U 1 1 613D18FF
+P 4750 3700
+AR Path="/613D18FF" Ref="#PWR?"  Part="1" 
+AR Path="/613B6C1F/613D18FF" Ref="#PWR?"  Part="1" 
+AR Path="/6149839C/613D18FF" Ref="#PWR?"  Part="1" 
+AR Path="/614BE344/613D18FF" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 4750 3550 50  0001 C CNN
+F 1 "+12V" H 4765 3873 50  0000 C CNN
+F 2 "" H 4750 3700 50  0001 C CNN
+F 3 "" H 4750 3700 50  0001 C CNN
+	1    4750 3700
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4750 3700 4750 3900
+Wire Wire Line
+	4750 3900 4675 3900
+Wire Wire Line
+	3375 3900 4375 3900
+$Comp
+L Device:LED D?
+U 1 1 613D190C
+P 4250 4000
+AR Path="/613D190C" Ref="D?"  Part="1" 
+AR Path="/613B6C1F/613D190C" Ref="D?"  Part="1" 
+AR Path="/6149839C/613D190C" Ref="D?"  Part="1" 
+AR Path="/614BE344/613D190C" Ref="D?"  Part="1" 
+F 0 "D?" H 4243 4217 50  0000 C CNN
+F 1 "B_LED" H 4243 4126 50  0000 C CNN
+F 2 "LED_SMD:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 4250 4000 50  0001 C CNN
+F 3 "~" H 4250 4000 50  0001 C CNN
+	1    4250 4000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4750 4000 4400 4000
+Wire Wire Line
+	3375 4000 4100 4000
+Wire Wire Line
+	3375 4200 3550 4200
+$Comp
+L Device:LED D?
+U 1 1 613D1919
+P 3975 4100
+AR Path="/613D1919" Ref="D?"  Part="1" 
+AR Path="/613B6C1F/613D1919" Ref="D?"  Part="1" 
+AR Path="/6149839C/613D1919" Ref="D?"  Part="1" 
+AR Path="/614BE344/613D1919" Ref="D?"  Part="1" 
+F 0 "D?" H 3968 4317 50  0000 C CNN
+F 1 "B_LED" H 3968 4226 50  0000 C CNN
+F 2 "LED_SMD:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 3975 4100 50  0001 C CNN
+F 3 "~" H 3975 4100 50  0001 C CNN
+	1    3975 4100
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:LED D?
+U 1 1 613D1923
+P 3700 4200
+AR Path="/613D1923" Ref="D?"  Part="1" 
+AR Path="/613B6C1F/613D1923" Ref="D?"  Part="1" 
+AR Path="/6149839C/613D1923" Ref="D?"  Part="1" 
+AR Path="/614BE344/613D1923" Ref="D?"  Part="1" 
+F 0 "D?" H 3693 4417 50  0000 C CNN
+F 1 "B_LED" H 3693 4326 50  0000 C CNN
+F 2 "LED_SMD:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 3700 4200 50  0001 C CNN
+F 3 "~" H 3700 4200 50  0001 C CNN
+	1    3700 4200
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3375 4100 3825 4100
+Wire Wire Line
+	3850 4200 4750 4200
+Wire Wire Line
+	4750 4200 4750 4100
+Connection ~ 4750 3900
+Connection ~ 4750 4000
+Wire Wire Line
+	4750 4000 4750 3900
+Wire Wire Line
+	4125 4100 4750 4100
+Connection ~ 4750 4100
+Wire Wire Line
+	4750 4100 4750 4000
+$Comp
+L Device:LED D?
+U 1 1 613D1936
+P 4525 4300
+AR Path="/613D1936" Ref="D?"  Part="1" 
+AR Path="/613B6C1F/613D1936" Ref="D?"  Part="1" 
+AR Path="/6149839C/613D1936" Ref="D?"  Part="1" 
+AR Path="/614BE344/613D1936" Ref="D?"  Part="1" 
+F 0 "D?" H 4518 4517 50  0000 C CNN
+F 1 "B_LED" H 4518 4426 50  0000 C CNN
+F 2 "LED_SMD:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 4525 4300 50  0001 C CNN
+F 3 "~" H 4525 4300 50  0001 C CNN
+	1    4525 4300
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3375 4300 4375 4300
+$Comp
+L Device:LED D?
+U 1 1 613D1941
+P 4250 4400
+AR Path="/613D1941" Ref="D?"  Part="1" 
+AR Path="/613B6C1F/613D1941" Ref="D?"  Part="1" 
+AR Path="/6149839C/613D1941" Ref="D?"  Part="1" 
+AR Path="/614BE344/613D1941" Ref="D?"  Part="1" 
+F 0 "D?" H 4243 4617 50  0000 C CNN
+F 1 "B_LED" H 4243 4526 50  0000 C CNN
+F 2 "LED_SMD:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 4250 4400 50  0001 C CNN
+F 3 "~" H 4250 4400 50  0001 C CNN
+	1    4250 4400
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4750 4400 4400 4400
+Wire Wire Line
+	3375 4400 4100 4400
+Wire Wire Line
+	3375 4600 3550 4600
+$Comp
+L Device:LED D?
+U 1 1 613D194E
+P 3975 4500
+AR Path="/613D194E" Ref="D?"  Part="1" 
+AR Path="/613B6C1F/613D194E" Ref="D?"  Part="1" 
+AR Path="/6149839C/613D194E" Ref="D?"  Part="1" 
+AR Path="/614BE344/613D194E" Ref="D?"  Part="1" 
+F 0 "D?" H 3968 4717 50  0000 C CNN
+F 1 "B_LED" H 3968 4626 50  0000 C CNN
+F 2 "LED_SMD:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 3975 4500 50  0001 C CNN
+F 3 "~" H 3975 4500 50  0001 C CNN
+	1    3975 4500
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:LED D?
+U 1 1 613D1958
+P 3700 4600
+AR Path="/613D1958" Ref="D?"  Part="1" 
+AR Path="/613B6C1F/613D1958" Ref="D?"  Part="1" 
+AR Path="/6149839C/613D1958" Ref="D?"  Part="1" 
+AR Path="/614BE344/613D1958" Ref="D?"  Part="1" 
+F 0 "D?" H 3693 4817 50  0000 C CNN
+F 1 "B_LED" H 3693 4726 50  0000 C CNN
+F 2 "LED_SMD:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 3700 4600 50  0001 C CNN
+F 3 "~" H 3700 4600 50  0001 C CNN
+	1    3700 4600
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3375 4500 3825 4500
+Wire Wire Line
+	3850 4600 4750 4600
+Wire Wire Line
+	4125 4500 4750 4500
+$Comp
+L Device:LED D?
+U 1 1 613D1965
+P 4525 4700
+AR Path="/613D1965" Ref="D?"  Part="1" 
+AR Path="/613B6C1F/613D1965" Ref="D?"  Part="1" 
+AR Path="/6149839C/613D1965" Ref="D?"  Part="1" 
+AR Path="/614BE344/613D1965" Ref="D?"  Part="1" 
+F 0 "D?" H 4518 4917 50  0000 C CNN
+F 1 "B_LED" H 4518 4826 50  0000 C CNN
+F 2 "LED_SMD:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 4525 4700 50  0001 C CNN
+F 3 "~" H 4525 4700 50  0001 C CNN
+	1    4525 4700
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4750 4700 4675 4700
+Wire Wire Line
+	3375 4700 4375 4700
+$Comp
+L Device:LED D?
+U 1 1 613D1971
+P 4250 4800
+AR Path="/613D1971" Ref="D?"  Part="1" 
+AR Path="/613B6C1F/613D1971" Ref="D?"  Part="1" 
+AR Path="/6149839C/613D1971" Ref="D?"  Part="1" 
+AR Path="/614BE344/613D1971" Ref="D?"  Part="1" 
+F 0 "D?" H 4243 5017 50  0000 C CNN
+F 1 "B_LED" H 4243 4926 50  0000 C CNN
+F 2 "LED_SMD:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 4250 4800 50  0001 C CNN
+F 3 "~" H 4250 4800 50  0001 C CNN
+	1    4250 4800
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4750 4800 4400 4800
+Wire Wire Line
+	3375 4800 4100 4800
+$Comp
+L Device:LED D?
+U 1 1 613D197D
+P 3975 4900
+AR Path="/613D197D" Ref="D?"  Part="1" 
+AR Path="/613B6C1F/613D197D" Ref="D?"  Part="1" 
+AR Path="/6149839C/613D197D" Ref="D?"  Part="1" 
+AR Path="/614BE344/613D197D" Ref="D?"  Part="1" 
+F 0 "D?" H 3968 5117 50  0000 C CNN
+F 1 "B_LED" H 3968 5026 50  0000 C CNN
+F 2 "LED_SMD:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 3975 4900 50  0001 C CNN
+F 3 "~" H 3975 4900 50  0001 C CNN
+	1    3975 4900
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:LED D?
+U 1 1 613D1987
+P 3700 5000
+AR Path="/613D1987" Ref="D?"  Part="1" 
+AR Path="/613B6C1F/613D1987" Ref="D?"  Part="1" 
+AR Path="/6149839C/613D1987" Ref="D?"  Part="1" 
+AR Path="/614BE344/613D1987" Ref="D?"  Part="1" 
+F 0 "D?" H 3693 5217 50  0000 C CNN
+F 1 "B_LED" H 3693 5126 50  0000 C CNN
+F 2 "LED_SMD:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 3700 5000 50  0001 C CNN
+F 3 "~" H 3700 5000 50  0001 C CNN
+	1    3700 5000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3375 4900 3825 4900
+Wire Wire Line
+	3850 5000 4750 5000
+Wire Wire Line
+	4125 4900 4750 4900
+$Comp
+L Device:LED D?
+U 1 1 613D1994
+P 4525 5100
+AR Path="/613D1994" Ref="D?"  Part="1" 
+AR Path="/613B6C1F/613D1994" Ref="D?"  Part="1" 
+AR Path="/6149839C/613D1994" Ref="D?"  Part="1" 
+AR Path="/614BE344/613D1994" Ref="D?"  Part="1" 
+F 0 "D?" H 4518 5317 50  0000 C CNN
+F 1 "B_LED" H 4518 5226 50  0000 C CNN
+F 2 "LED_SMD:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 4525 5100 50  0001 C CNN
+F 3 "~" H 4525 5100 50  0001 C CNN
+	1    4525 5100
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3375 5100 4375 5100
+$Comp
+L Device:LED D?
+U 1 1 613D199F
+P 4250 5200
+AR Path="/613D199F" Ref="D?"  Part="1" 
+AR Path="/613B6C1F/613D199F" Ref="D?"  Part="1" 
+AR Path="/6149839C/613D199F" Ref="D?"  Part="1" 
+AR Path="/614BE344/613D199F" Ref="D?"  Part="1" 
+F 0 "D?" H 4243 5417 50  0000 C CNN
+F 1 "B_LED" H 4243 5326 50  0000 C CNN
+F 2 "LED_SMD:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 4250 5200 50  0001 C CNN
+F 3 "~" H 4250 5200 50  0001 C CNN
+	1    4250 5200
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4750 5200 4400 5200
+Wire Wire Line
+	3375 5200 4100 5200
+$Comp
+L Device:LED D?
+U 1 1 613D19AB
+P 3975 5300
+AR Path="/613D19AB" Ref="D?"  Part="1" 
+AR Path="/613B6C1F/613D19AB" Ref="D?"  Part="1" 
+AR Path="/6149839C/613D19AB" Ref="D?"  Part="1" 
+AR Path="/614BE344/613D19AB" Ref="D?"  Part="1" 
+F 0 "D?" H 3968 5517 50  0000 C CNN
+F 1 "B_LED" H 3968 5426 50  0000 C CNN
+F 2 "LED_SMD:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 3975 5300 50  0001 C CNN
+F 3 "~" H 3975 5300 50  0001 C CNN
+	1    3975 5300
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:LED D?
+U 1 1 613D19B5
+P 3700 5400
+AR Path="/613D19B5" Ref="D?"  Part="1" 
+AR Path="/613B6C1F/613D19B5" Ref="D?"  Part="1" 
+AR Path="/6149839C/613D19B5" Ref="D?"  Part="1" 
+AR Path="/614BE344/613D19B5" Ref="D?"  Part="1" 
+F 0 "D?" H 3693 5617 50  0000 C CNN
+F 1 "B_LED" H 3693 5526 50  0000 C CNN
+F 2 "LED_SMD:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 3700 5400 50  0001 C CNN
+F 3 "~" H 3700 5400 50  0001 C CNN
+	1    3700 5400
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3375 5300 3825 5300
+Wire Wire Line
+	3850 5400 4750 5400
+Wire Wire Line
+	4125 5300 4750 5300
+Wire Wire Line
+	3550 5000 3375 5000
+Wire Wire Line
+	4675 4300 4750 4300
+Wire Wire Line
+	4750 4300 4750 4200
+Connection ~ 4750 4200
+Wire Wire Line
+	4750 4300 4750 4400
+Connection ~ 4750 4300
+Connection ~ 4750 4400
+Wire Wire Line
+	4750 4400 4750 4500
+Connection ~ 4750 4500
+Wire Wire Line
+	4750 4500 4750 4600
+Connection ~ 4750 4600
+Wire Wire Line
+	4750 4600 4750 4700
+Connection ~ 4750 4700
+Wire Wire Line
+	4750 4700 4750 4800
+Connection ~ 4750 4800
+Wire Wire Line
+	4750 4800 4750 4900
+Connection ~ 4750 4900
+Wire Wire Line
+	4750 4900 4750 5000
+Connection ~ 4750 5000
+Wire Wire Line
+	4750 5000 4750 5100
+Connection ~ 4750 5200
+Wire Wire Line
+	4750 5200 4750 5300
+Connection ~ 4750 5300
+Wire Wire Line
+	4750 5300 4750 5400
+Wire Wire Line
+	3550 5400 3375 5400
+$Comp
+L power:GND #PWR?
+U 1 1 613D19DB
+P 3000 6075
+AR Path="/613D19DB" Ref="#PWR?"  Part="1" 
+AR Path="/613B6C1F/613D19DB" Ref="#PWR?"  Part="1" 
+AR Path="/6149839C/613D19DB" Ref="#PWR?"  Part="1" 
+AR Path="/614BE344/613D19DB" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 3000 5825 50  0001 C CNN
+F 1 "GND" H 3005 5902 50  0000 C CNN
+F 2 "" H 3000 6075 50  0001 C CNN
+F 3 "" H 3000 6075 50  0001 C CNN
+	1    3000 6075
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3000 6075 3000 5925
+$Comp
+L Device:C C?
+U 1 1 613D19E6
+P 1850 4200
+AR Path="/613D19E6" Ref="C?"  Part="1" 
+AR Path="/613B6C1F/613D19E6" Ref="C?"  Part="1" 
+AR Path="/6149839C/613D19E6" Ref="C?"  Part="1" 
+AR Path="/614BE344/613D19E6" Ref="C?"  Part="1" 
+F 0 "C?" V 1598 4200 50  0000 C CNN
+F 1 "100N" V 1689 4200 50  0000 C CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder" H 1888 4050 50  0001 C CNN
+F 3 "~" H 1850 4200 50  0001 C CNN
+	1    1850 4200
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 613D19F0
+P 1850 4425
+AR Path="/613D19F0" Ref="#PWR?"  Part="1" 
+AR Path="/613B6C1F/613D19F0" Ref="#PWR?"  Part="1" 
+AR Path="/6149839C/613D19F0" Ref="#PWR?"  Part="1" 
+AR Path="/614BE344/613D19F0" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 1850 4175 50  0001 C CNN
+F 1 "GND" H 1855 4252 50  0000 C CNN
+F 2 "" H 1850 4425 50  0001 C CNN
+F 3 "" H 1850 4425 50  0001 C CNN
+	1    1850 4425
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1850 4425 1850 4350
+Wire Wire Line
+	1850 4050 1850 3900
+Wire Wire Line
+	1850 3900 2625 3900
+Wire Wire Line
+	4675 5100 4750 5100
+Connection ~ 4750 5100
+Wire Wire Line
+	4750 5100 4750 5200
+$Comp
+L Device:R R?
+U 1 1 613D1A00
+P 2425 5750
+AR Path="/613D1A00" Ref="R?"  Part="1" 
+AR Path="/613B6C1F/613D1A00" Ref="R?"  Part="1" 
+AR Path="/6149839C/613D1A00" Ref="R?"  Part="1" 
+AR Path="/614BE344/613D1A00" Ref="R?"  Part="1" 
+F 0 "R?" H 2495 5796 50  0000 L CNN
+F 1 "3K" H 2495 5705 50  0000 L CNN
+F 2 "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder" V 2355 5750 50  0001 C CNN
+F 3 "~" H 2425 5750 50  0001 C CNN
+	1    2425 5750
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2625 5525 2425 5525
+Wire Wire Line
+	2425 5525 2425 5600
+$Comp
+L power:GND #PWR?
+U 1 1 613D1A0C
+P 2425 6075
+AR Path="/613D1A0C" Ref="#PWR?"  Part="1" 
+AR Path="/613B6C1F/613D1A0C" Ref="#PWR?"  Part="1" 
+AR Path="/6149839C/613D1A0C" Ref="#PWR?"  Part="1" 
+AR Path="/614BE344/613D1A0C" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 2425 5825 50  0001 C CNN
+F 1 "GND" H 2430 5902 50  0000 C CNN
+F 2 "" H 2425 6075 50  0001 C CNN
+F 3 "" H 2425 6075 50  0001 C CNN
+	1    2425 6075
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2425 6075 2425 5900
+$Comp
+L power:+3.3V #PWR?
+U 1 1 613D1A17
+P 1850 3800
+AR Path="/613D1A17" Ref="#PWR?"  Part="1" 
+AR Path="/613B6C1F/613D1A17" Ref="#PWR?"  Part="1" 
+AR Path="/6149839C/613D1A17" Ref="#PWR?"  Part="1" 
+AR Path="/614BE344/613D1A17" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 1850 3650 50  0001 C CNN
+F 1 "+3.3V" H 1865 3973 50  0000 C CNN
+F 2 "" H 1850 3800 50  0001 C CNN
+F 3 "" H 1850 3800 50  0001 C CNN
+	1    1850 3800
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1850 3800 1850 3900
+Connection ~ 1850 3900
+Text HLabel 2550 4550 0    50   Input ~ 0
+~CS~_BLUE
+Wire Wire Line
+	2550 4550 2625 4550
+Text HLabel 2550 4850 0    50   Input ~ 0
+SPI1_CLK
+Wire Wire Line
+	2550 4850 2625 4850
+Text HLabel 2550 4950 0    50   Input ~ 0
+~OE~
+Text HLabel 2550 5050 0    50   Input ~ 0
+~RESET~
+Wire Wire Line
+	2550 5050 2625 5050
+Wire Wire Line
+	2625 4950 2550 4950
+$Comp
+L Project_Library:PCA9745 U?
+U 1 1 613E5E0F
+P 8300 1875
+AR Path="/613E5E0F" Ref="U?"  Part="1" 
+AR Path="/613B6C1F/613E5E0F" Ref="U?"  Part="1" 
+AR Path="/6149839C/613E5E0F" Ref="U?"  Part="1" 
+AR Path="/614BE344/613E5E0F" Ref="U?"  Part="1" 
+F 0 "U?" H 8300 2840 50  0000 C CNN
+F 1 "PCA9745" H 8300 2749 50  0000 C CNN
+F 2 "Package_SO:HTSSOP-28-1EP_4.4x9.7mm_P0.65mm_EP2.85x5.4mm" H 8300 375 50  0001 C CNN
+F 3 "" H 8300 2750 50  0001 C CNN
+	1    8300 1875
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:LED D?
+U 1 1 613E62B1
+P 9825 1150
+AR Path="/613E62B1" Ref="D?"  Part="1" 
+AR Path="/613B6C1F/613E62B1" Ref="D?"  Part="1" 
+AR Path="/6149839C/613E62B1" Ref="D?"  Part="1" 
+AR Path="/614BE344/613E62B1" Ref="D?"  Part="1" 
+F 0 "D?" H 9818 1367 50  0000 C CNN
+F 1 "B_LED" H 9818 1276 50  0000 C CNN
+F 2 "LED_SMD:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 9825 1150 50  0001 C CNN
+F 3 "~" H 9825 1150 50  0001 C CNN
+	1    9825 1150
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+12V #PWR?
+U 1 1 613E62BB
+P 10050 950
+AR Path="/613E62BB" Ref="#PWR?"  Part="1" 
+AR Path="/613B6C1F/613E62BB" Ref="#PWR?"  Part="1" 
+AR Path="/6149839C/613E62BB" Ref="#PWR?"  Part="1" 
+AR Path="/614BE344/613E62BB" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 10050 800 50  0001 C CNN
+F 1 "+12V" H 10065 1123 50  0000 C CNN
+F 2 "" H 10050 950 50  0001 C CNN
+F 3 "" H 10050 950 50  0001 C CNN
+	1    10050 950 
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	10050 950  10050 1150
+Wire Wire Line
+	10050 1150 9975 1150
+Wire Wire Line
+	8675 1150 9675 1150
+$Comp
+L Device:LED D?
+U 1 1 613E62C8
+P 9550 1250
+AR Path="/613E62C8" Ref="D?"  Part="1" 
+AR Path="/613B6C1F/613E62C8" Ref="D?"  Part="1" 
+AR Path="/6149839C/613E62C8" Ref="D?"  Part="1" 
+AR Path="/614BE344/613E62C8" Ref="D?"  Part="1" 
+F 0 "D?" H 9543 1467 50  0000 C CNN
+F 1 "B_LED" H 9543 1376 50  0000 C CNN
+F 2 "LED_SMD:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 9550 1250 50  0001 C CNN
+F 3 "~" H 9550 1250 50  0001 C CNN
+	1    9550 1250
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	10050 1250 9700 1250
+Wire Wire Line
+	8675 1250 9400 1250
+Wire Wire Line
+	8675 1450 8850 1450
+$Comp
+L Device:LED D?
+U 1 1 613E62D5
+P 9275 1350
+AR Path="/613E62D5" Ref="D?"  Part="1" 
+AR Path="/613B6C1F/613E62D5" Ref="D?"  Part="1" 
+AR Path="/6149839C/613E62D5" Ref="D?"  Part="1" 
+AR Path="/614BE344/613E62D5" Ref="D?"  Part="1" 
+F 0 "D?" H 9268 1567 50  0000 C CNN
+F 1 "B_LED" H 9268 1476 50  0000 C CNN
+F 2 "LED_SMD:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 9275 1350 50  0001 C CNN
+F 3 "~" H 9275 1350 50  0001 C CNN
+	1    9275 1350
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:LED D?
+U 1 1 613E62DF
+P 9000 1450
+AR Path="/613E62DF" Ref="D?"  Part="1" 
+AR Path="/613B6C1F/613E62DF" Ref="D?"  Part="1" 
+AR Path="/6149839C/613E62DF" Ref="D?"  Part="1" 
+AR Path="/614BE344/613E62DF" Ref="D?"  Part="1" 
+F 0 "D?" H 8993 1667 50  0000 C CNN
+F 1 "B_LED" H 8993 1576 50  0000 C CNN
+F 2 "LED_SMD:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 9000 1450 50  0001 C CNN
+F 3 "~" H 9000 1450 50  0001 C CNN
+	1    9000 1450
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8675 1350 9125 1350
+Wire Wire Line
+	9150 1450 10050 1450
+Wire Wire Line
+	10050 1450 10050 1350
+Connection ~ 10050 1150
+Connection ~ 10050 1250
+Wire Wire Line
+	10050 1250 10050 1150
+Wire Wire Line
+	9425 1350 10050 1350
+Connection ~ 10050 1350
+Wire Wire Line
+	10050 1350 10050 1250
+$Comp
+L Device:LED D?
+U 1 1 613E62F2
+P 9825 1550
+AR Path="/613E62F2" Ref="D?"  Part="1" 
+AR Path="/613B6C1F/613E62F2" Ref="D?"  Part="1" 
+AR Path="/6149839C/613E62F2" Ref="D?"  Part="1" 
+AR Path="/614BE344/613E62F2" Ref="D?"  Part="1" 
+F 0 "D?" H 9818 1767 50  0000 C CNN
+F 1 "B_LED" H 9818 1676 50  0000 C CNN
+F 2 "LED_SMD:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 9825 1550 50  0001 C CNN
+F 3 "~" H 9825 1550 50  0001 C CNN
+	1    9825 1550
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8675 1550 9675 1550
+$Comp
+L Device:LED D?
+U 1 1 613E62FD
+P 9550 1650
+AR Path="/613E62FD" Ref="D?"  Part="1" 
+AR Path="/613B6C1F/613E62FD" Ref="D?"  Part="1" 
+AR Path="/6149839C/613E62FD" Ref="D?"  Part="1" 
+AR Path="/614BE344/613E62FD" Ref="D?"  Part="1" 
+F 0 "D?" H 9543 1867 50  0000 C CNN
+F 1 "B_LED" H 9543 1776 50  0000 C CNN
+F 2 "LED_SMD:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 9550 1650 50  0001 C CNN
+F 3 "~" H 9550 1650 50  0001 C CNN
+	1    9550 1650
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	10050 1650 9700 1650
+Wire Wire Line
+	8675 1650 9400 1650
+Wire Wire Line
+	8675 1850 8850 1850
+$Comp
+L Device:LED D?
+U 1 1 613E630A
+P 9275 1750
+AR Path="/613E630A" Ref="D?"  Part="1" 
+AR Path="/613B6C1F/613E630A" Ref="D?"  Part="1" 
+AR Path="/6149839C/613E630A" Ref="D?"  Part="1" 
+AR Path="/614BE344/613E630A" Ref="D?"  Part="1" 
+F 0 "D?" H 9268 1967 50  0000 C CNN
+F 1 "B_LED" H 9268 1876 50  0000 C CNN
+F 2 "LED_SMD:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 9275 1750 50  0001 C CNN
+F 3 "~" H 9275 1750 50  0001 C CNN
+	1    9275 1750
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:LED D?
+U 1 1 613E6314
+P 9000 1850
+AR Path="/613E6314" Ref="D?"  Part="1" 
+AR Path="/613B6C1F/613E6314" Ref="D?"  Part="1" 
+AR Path="/6149839C/613E6314" Ref="D?"  Part="1" 
+AR Path="/614BE344/613E6314" Ref="D?"  Part="1" 
+F 0 "D?" H 8993 2067 50  0000 C CNN
+F 1 "B_LED" H 8993 1976 50  0000 C CNN
+F 2 "LED_SMD:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 9000 1850 50  0001 C CNN
+F 3 "~" H 9000 1850 50  0001 C CNN
+	1    9000 1850
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8675 1750 9125 1750
+Wire Wire Line
+	9150 1850 10050 1850
+Wire Wire Line
+	9425 1750 10050 1750
+$Comp
+L Device:LED D?
+U 1 1 613E6321
+P 9825 1950
+AR Path="/613E6321" Ref="D?"  Part="1" 
+AR Path="/613B6C1F/613E6321" Ref="D?"  Part="1" 
+AR Path="/6149839C/613E6321" Ref="D?"  Part="1" 
+AR Path="/614BE344/613E6321" Ref="D?"  Part="1" 
+F 0 "D?" H 9818 2167 50  0000 C CNN
+F 1 "B_LED" H 9818 2076 50  0000 C CNN
+F 2 "LED_SMD:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 9825 1950 50  0001 C CNN
+F 3 "~" H 9825 1950 50  0001 C CNN
+	1    9825 1950
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	10050 1950 9975 1950
+Wire Wire Line
+	8675 1950 9675 1950
+$Comp
+L Device:LED D?
+U 1 1 613E632D
+P 9550 2050
+AR Path="/613E632D" Ref="D?"  Part="1" 
+AR Path="/613B6C1F/613E632D" Ref="D?"  Part="1" 
+AR Path="/6149839C/613E632D" Ref="D?"  Part="1" 
+AR Path="/614BE344/613E632D" Ref="D?"  Part="1" 
+F 0 "D?" H 9543 2267 50  0000 C CNN
+F 1 "B_LED" H 9543 2176 50  0000 C CNN
+F 2 "LED_SMD:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 9550 2050 50  0001 C CNN
+F 3 "~" H 9550 2050 50  0001 C CNN
+	1    9550 2050
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	10050 2050 9700 2050
+Wire Wire Line
+	8675 2050 9400 2050
+$Comp
+L Device:LED D?
+U 1 1 613E6339
+P 9275 2150
+AR Path="/613E6339" Ref="D?"  Part="1" 
+AR Path="/613B6C1F/613E6339" Ref="D?"  Part="1" 
+AR Path="/6149839C/613E6339" Ref="D?"  Part="1" 
+AR Path="/614BE344/613E6339" Ref="D?"  Part="1" 
+F 0 "D?" H 9268 2367 50  0000 C CNN
+F 1 "B_LED" H 9268 2276 50  0000 C CNN
+F 2 "LED_SMD:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 9275 2150 50  0001 C CNN
+F 3 "~" H 9275 2150 50  0001 C CNN
+	1    9275 2150
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:LED D?
+U 1 1 613E6343
+P 9000 2250
+AR Path="/613E6343" Ref="D?"  Part="1" 
+AR Path="/613B6C1F/613E6343" Ref="D?"  Part="1" 
+AR Path="/6149839C/613E6343" Ref="D?"  Part="1" 
+AR Path="/614BE344/613E6343" Ref="D?"  Part="1" 
+F 0 "D?" H 8993 2467 50  0000 C CNN
+F 1 "B_LED" H 8993 2376 50  0000 C CNN
+F 2 "LED_SMD:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 9000 2250 50  0001 C CNN
+F 3 "~" H 9000 2250 50  0001 C CNN
+	1    9000 2250
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8675 2150 9125 2150
+Wire Wire Line
+	9150 2250 10050 2250
+Wire Wire Line
+	9425 2150 10050 2150
+$Comp
+L Device:LED D?
+U 1 1 613E6350
+P 9825 2350
+AR Path="/613E6350" Ref="D?"  Part="1" 
+AR Path="/613B6C1F/613E6350" Ref="D?"  Part="1" 
+AR Path="/6149839C/613E6350" Ref="D?"  Part="1" 
+AR Path="/614BE344/613E6350" Ref="D?"  Part="1" 
+F 0 "D?" H 9818 2567 50  0000 C CNN
+F 1 "B_LED" H 9818 2476 50  0000 C CNN
+F 2 "LED_SMD:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 9825 2350 50  0001 C CNN
+F 3 "~" H 9825 2350 50  0001 C CNN
+	1    9825 2350
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8675 2350 9675 2350
+$Comp
+L Device:LED D?
+U 1 1 613E635B
+P 9550 2450
+AR Path="/613E635B" Ref="D?"  Part="1" 
+AR Path="/613B6C1F/613E635B" Ref="D?"  Part="1" 
+AR Path="/6149839C/613E635B" Ref="D?"  Part="1" 
+AR Path="/614BE344/613E635B" Ref="D?"  Part="1" 
+F 0 "D?" H 9543 2667 50  0000 C CNN
+F 1 "B_LED" H 9543 2576 50  0000 C CNN
+F 2 "LED_SMD:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 9550 2450 50  0001 C CNN
+F 3 "~" H 9550 2450 50  0001 C CNN
+	1    9550 2450
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	10050 2450 9700 2450
+Wire Wire Line
+	8675 2450 9400 2450
+$Comp
+L Device:LED D?
+U 1 1 613E6367
+P 9275 2550
+AR Path="/613E6367" Ref="D?"  Part="1" 
+AR Path="/613B6C1F/613E6367" Ref="D?"  Part="1" 
+AR Path="/6149839C/613E6367" Ref="D?"  Part="1" 
+AR Path="/614BE344/613E6367" Ref="D?"  Part="1" 
+F 0 "D?" H 9268 2767 50  0000 C CNN
+F 1 "B_LED" H 9268 2676 50  0000 C CNN
+F 2 "LED_SMD:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 9275 2550 50  0001 C CNN
+F 3 "~" H 9275 2550 50  0001 C CNN
+	1    9275 2550
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:LED D?
+U 1 1 613E6371
+P 9000 2650
+AR Path="/613E6371" Ref="D?"  Part="1" 
+AR Path="/613B6C1F/613E6371" Ref="D?"  Part="1" 
+AR Path="/6149839C/613E6371" Ref="D?"  Part="1" 
+AR Path="/614BE344/613E6371" Ref="D?"  Part="1" 
+F 0 "D?" H 8993 2867 50  0000 C CNN
+F 1 "B_LED" H 8993 2776 50  0000 C CNN
+F 2 "LED_SMD:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 9000 2650 50  0001 C CNN
+F 3 "~" H 9000 2650 50  0001 C CNN
+	1    9000 2650
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8675 2550 9125 2550
+Wire Wire Line
+	9150 2650 10050 2650
+Wire Wire Line
+	9425 2550 10050 2550
+Wire Wire Line
+	8850 2250 8675 2250
+Wire Wire Line
+	9975 1550 10050 1550
+Wire Wire Line
+	10050 1550 10050 1450
+Connection ~ 10050 1450
+Wire Wire Line
+	10050 1550 10050 1650
+Connection ~ 10050 1550
+Connection ~ 10050 1650
+Wire Wire Line
+	10050 1650 10050 1750
+Connection ~ 10050 1750
+Wire Wire Line
+	10050 1750 10050 1850
+Connection ~ 10050 1850
+Wire Wire Line
+	10050 1850 10050 1950
+Connection ~ 10050 1950
+Wire Wire Line
+	10050 1950 10050 2050
+Connection ~ 10050 2050
+Wire Wire Line
+	10050 2050 10050 2150
+Connection ~ 10050 2150
+Wire Wire Line
+	10050 2150 10050 2250
+Connection ~ 10050 2250
+Wire Wire Line
+	10050 2250 10050 2350
+Connection ~ 10050 2450
+Wire Wire Line
+	10050 2450 10050 2550
+Connection ~ 10050 2550
+Wire Wire Line
+	10050 2550 10050 2650
+Wire Wire Line
+	8850 2650 8675 2650
+$Comp
+L power:GND #PWR?
+U 1 1 613E6397
+P 8300 3325
+AR Path="/613E6397" Ref="#PWR?"  Part="1" 
+AR Path="/613B6C1F/613E6397" Ref="#PWR?"  Part="1" 
+AR Path="/6149839C/613E6397" Ref="#PWR?"  Part="1" 
+AR Path="/614BE344/613E6397" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 8300 3075 50  0001 C CNN
+F 1 "GND" H 8305 3152 50  0000 C CNN
+F 2 "" H 8300 3325 50  0001 C CNN
+F 3 "" H 8300 3325 50  0001 C CNN
+	1    8300 3325
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8300 3325 8300 3175
+$Comp
+L Device:C C?
+U 1 1 613E63A2
+P 7150 1450
+AR Path="/613E63A2" Ref="C?"  Part="1" 
+AR Path="/613B6C1F/613E63A2" Ref="C?"  Part="1" 
+AR Path="/6149839C/613E63A2" Ref="C?"  Part="1" 
+AR Path="/614BE344/613E63A2" Ref="C?"  Part="1" 
+F 0 "C?" V 6898 1450 50  0000 C CNN
+F 1 "100N" V 6989 1450 50  0000 C CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder" H 7188 1300 50  0001 C CNN
+F 3 "~" H 7150 1450 50  0001 C CNN
+	1    7150 1450
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 613E63AC
+P 7150 1675
+AR Path="/613E63AC" Ref="#PWR?"  Part="1" 
+AR Path="/613B6C1F/613E63AC" Ref="#PWR?"  Part="1" 
+AR Path="/6149839C/613E63AC" Ref="#PWR?"  Part="1" 
+AR Path="/614BE344/613E63AC" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 7150 1425 50  0001 C CNN
+F 1 "GND" H 7155 1502 50  0000 C CNN
+F 2 "" H 7150 1675 50  0001 C CNN
+F 3 "" H 7150 1675 50  0001 C CNN
+	1    7150 1675
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7150 1675 7150 1600
+Wire Wire Line
+	7150 1300 7150 1150
+Wire Wire Line
+	7150 1150 7925 1150
+Wire Wire Line
+	9975 2350 10050 2350
+Connection ~ 10050 2350
+Wire Wire Line
+	10050 2350 10050 2450
+$Comp
+L Device:R R?
+U 1 1 613E63BC
+P 7725 3000
+AR Path="/613E63BC" Ref="R?"  Part="1" 
+AR Path="/613B6C1F/613E63BC" Ref="R?"  Part="1" 
+AR Path="/6149839C/613E63BC" Ref="R?"  Part="1" 
+AR Path="/614BE344/613E63BC" Ref="R?"  Part="1" 
+F 0 "R?" H 7795 3046 50  0000 L CNN
+F 1 "3K" H 7795 2955 50  0000 L CNN
+F 2 "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder" V 7655 3000 50  0001 C CNN
+F 3 "~" H 7725 3000 50  0001 C CNN
+	1    7725 3000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7925 2775 7725 2775
+Wire Wire Line
+	7725 2775 7725 2850
+$Comp
+L power:GND #PWR?
+U 1 1 613E63C8
+P 7725 3325
+AR Path="/613E63C8" Ref="#PWR?"  Part="1" 
+AR Path="/613B6C1F/613E63C8" Ref="#PWR?"  Part="1" 
+AR Path="/6149839C/613E63C8" Ref="#PWR?"  Part="1" 
+AR Path="/614BE344/613E63C8" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 7725 3075 50  0001 C CNN
+F 1 "GND" H 7730 3152 50  0000 C CNN
+F 2 "" H 7725 3325 50  0001 C CNN
+F 3 "" H 7725 3325 50  0001 C CNN
+	1    7725 3325
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7725 3325 7725 3150
+$Comp
+L power:+3.3V #PWR?
+U 1 1 613E63D3
+P 7150 1050
+AR Path="/613E63D3" Ref="#PWR?"  Part="1" 
+AR Path="/613B6C1F/613E63D3" Ref="#PWR?"  Part="1" 
+AR Path="/6149839C/613E63D3" Ref="#PWR?"  Part="1" 
+AR Path="/614BE344/613E63D3" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 7150 900 50  0001 C CNN
+F 1 "+3.3V" H 7165 1223 50  0000 C CNN
+F 2 "" H 7150 1050 50  0001 C CNN
+F 3 "" H 7150 1050 50  0001 C CNN
+	1    7150 1050
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7150 1050 7150 1150
+Connection ~ 7150 1150
+Text HLabel 7850 1800 0    50   Input ~ 0
+~CS~_BLUE
+Wire Wire Line
+	7850 1800 7925 1800
+Text HLabel 7850 2100 0    50   Input ~ 0
+SPI1_CLK
+Wire Wire Line
+	7850 2100 7925 2100
+Text HLabel 7850 2200 0    50   Input ~ 0
+~OE~
+Text HLabel 7850 2300 0    50   Input ~ 0
+~RESET~
+Wire Wire Line
+	7850 2300 7925 2300
+Wire Wire Line
+	7925 2200 7850 2200
+$Comp
+L Project_Library:PCA9745 U?
+U 1 1 613E63E9
+P 8300 4625
+AR Path="/613E63E9" Ref="U?"  Part="1" 
+AR Path="/613B6C1F/613E63E9" Ref="U?"  Part="1" 
+AR Path="/6149839C/613E63E9" Ref="U?"  Part="1" 
+AR Path="/614BE344/613E63E9" Ref="U?"  Part="1" 
+F 0 "U?" H 8300 5590 50  0000 C CNN
+F 1 "PCA9745" H 8300 5499 50  0000 C CNN
+F 2 "Package_SO:HTSSOP-28-1EP_4.4x9.7mm_P0.65mm_EP2.85x5.4mm" H 8300 3125 50  0001 C CNN
+F 3 "" H 8300 5500 50  0001 C CNN
+	1    8300 4625
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:LED D?
+U 1 1 613E63F3
+P 9825 3900
+AR Path="/613E63F3" Ref="D?"  Part="1" 
+AR Path="/613B6C1F/613E63F3" Ref="D?"  Part="1" 
+AR Path="/6149839C/613E63F3" Ref="D?"  Part="1" 
+AR Path="/614BE344/613E63F3" Ref="D?"  Part="1" 
+F 0 "D?" H 9818 4117 50  0000 C CNN
+F 1 "B_LED" H 9818 4026 50  0000 C CNN
+F 2 "LED_SMD:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 9825 3900 50  0001 C CNN
+F 3 "~" H 9825 3900 50  0001 C CNN
+	1    9825 3900
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+12V #PWR?
+U 1 1 613E63FD
+P 10050 3700
+AR Path="/613E63FD" Ref="#PWR?"  Part="1" 
+AR Path="/613B6C1F/613E63FD" Ref="#PWR?"  Part="1" 
+AR Path="/6149839C/613E63FD" Ref="#PWR?"  Part="1" 
+AR Path="/614BE344/613E63FD" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 10050 3550 50  0001 C CNN
+F 1 "+12V" H 10065 3873 50  0000 C CNN
+F 2 "" H 10050 3700 50  0001 C CNN
+F 3 "" H 10050 3700 50  0001 C CNN
+	1    10050 3700
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	10050 3700 10050 3900
+Wire Wire Line
+	10050 3900 9975 3900
+Wire Wire Line
+	8675 3900 9675 3900
+$Comp
+L Device:LED D?
+U 1 1 613E640A
+P 9550 4000
+AR Path="/613E640A" Ref="D?"  Part="1" 
+AR Path="/613B6C1F/613E640A" Ref="D?"  Part="1" 
+AR Path="/6149839C/613E640A" Ref="D?"  Part="1" 
+AR Path="/614BE344/613E640A" Ref="D?"  Part="1" 
+F 0 "D?" H 9543 4217 50  0000 C CNN
+F 1 "B_LED" H 9543 4126 50  0000 C CNN
+F 2 "LED_SMD:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 9550 4000 50  0001 C CNN
+F 3 "~" H 9550 4000 50  0001 C CNN
+	1    9550 4000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	10050 4000 9700 4000
+Wire Wire Line
+	8675 4000 9400 4000
+Wire Wire Line
+	8675 4200 8850 4200
+$Comp
+L Device:LED D?
+U 1 1 613E6417
+P 9275 4100
+AR Path="/613E6417" Ref="D?"  Part="1" 
+AR Path="/613B6C1F/613E6417" Ref="D?"  Part="1" 
+AR Path="/6149839C/613E6417" Ref="D?"  Part="1" 
+AR Path="/614BE344/613E6417" Ref="D?"  Part="1" 
+F 0 "D?" H 9268 4317 50  0000 C CNN
+F 1 "B_LED" H 9268 4226 50  0000 C CNN
+F 2 "LED_SMD:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 9275 4100 50  0001 C CNN
+F 3 "~" H 9275 4100 50  0001 C CNN
+	1    9275 4100
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:LED D?
+U 1 1 613E6421
+P 9000 4200
+AR Path="/613E6421" Ref="D?"  Part="1" 
+AR Path="/613B6C1F/613E6421" Ref="D?"  Part="1" 
+AR Path="/6149839C/613E6421" Ref="D?"  Part="1" 
+AR Path="/614BE344/613E6421" Ref="D?"  Part="1" 
+F 0 "D?" H 8993 4417 50  0000 C CNN
+F 1 "B_LED" H 8993 4326 50  0000 C CNN
+F 2 "LED_SMD:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 9000 4200 50  0001 C CNN
+F 3 "~" H 9000 4200 50  0001 C CNN
+	1    9000 4200
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8675 4100 9125 4100
+Wire Wire Line
+	9150 4200 10050 4200
+Wire Wire Line
+	10050 4200 10050 4100
+Connection ~ 10050 3900
+Connection ~ 10050 4000
+Wire Wire Line
+	10050 4000 10050 3900
+Wire Wire Line
+	9425 4100 10050 4100
+Connection ~ 10050 4100
+Wire Wire Line
+	10050 4100 10050 4000
+$Comp
+L Device:LED D?
+U 1 1 613E6434
+P 9825 4300
+AR Path="/613E6434" Ref="D?"  Part="1" 
+AR Path="/613B6C1F/613E6434" Ref="D?"  Part="1" 
+AR Path="/6149839C/613E6434" Ref="D?"  Part="1" 
+AR Path="/614BE344/613E6434" Ref="D?"  Part="1" 
+F 0 "D?" H 9818 4517 50  0000 C CNN
+F 1 "B_LED" H 9818 4426 50  0000 C CNN
+F 2 "LED_SMD:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 9825 4300 50  0001 C CNN
+F 3 "~" H 9825 4300 50  0001 C CNN
+	1    9825 4300
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8675 4300 9675 4300
+$Comp
+L Device:LED D?
+U 1 1 613E643F
+P 9550 4400
+AR Path="/613E643F" Ref="D?"  Part="1" 
+AR Path="/613B6C1F/613E643F" Ref="D?"  Part="1" 
+AR Path="/6149839C/613E643F" Ref="D?"  Part="1" 
+AR Path="/614BE344/613E643F" Ref="D?"  Part="1" 
+F 0 "D?" H 9543 4617 50  0000 C CNN
+F 1 "B_LED" H 9543 4526 50  0000 C CNN
+F 2 "LED_SMD:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 9550 4400 50  0001 C CNN
+F 3 "~" H 9550 4400 50  0001 C CNN
+	1    9550 4400
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	10050 4400 9700 4400
+Wire Wire Line
+	8675 4400 9400 4400
+Wire Wire Line
+	8675 4600 8850 4600
+$Comp
+L Device:LED D?
+U 1 1 613E644C
+P 9275 4500
+AR Path="/613E644C" Ref="D?"  Part="1" 
+AR Path="/613B6C1F/613E644C" Ref="D?"  Part="1" 
+AR Path="/6149839C/613E644C" Ref="D?"  Part="1" 
+AR Path="/614BE344/613E644C" Ref="D?"  Part="1" 
+F 0 "D?" H 9268 4717 50  0000 C CNN
+F 1 "B_LED" H 9268 4626 50  0000 C CNN
+F 2 "LED_SMD:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 9275 4500 50  0001 C CNN
+F 3 "~" H 9275 4500 50  0001 C CNN
+	1    9275 4500
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:LED D?
+U 1 1 613E6456
+P 9000 4600
+AR Path="/613E6456" Ref="D?"  Part="1" 
+AR Path="/613B6C1F/613E6456" Ref="D?"  Part="1" 
+AR Path="/6149839C/613E6456" Ref="D?"  Part="1" 
+AR Path="/614BE344/613E6456" Ref="D?"  Part="1" 
+F 0 "D?" H 8993 4817 50  0000 C CNN
+F 1 "B_LED" H 8993 4726 50  0000 C CNN
+F 2 "LED_SMD:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 9000 4600 50  0001 C CNN
+F 3 "~" H 9000 4600 50  0001 C CNN
+	1    9000 4600
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8675 4500 9125 4500
+Wire Wire Line
+	9150 4600 10050 4600
+Wire Wire Line
+	9425 4500 10050 4500
+$Comp
+L Device:LED D?
+U 1 1 613E6463
+P 9825 4700
+AR Path="/613E6463" Ref="D?"  Part="1" 
+AR Path="/613B6C1F/613E6463" Ref="D?"  Part="1" 
+AR Path="/6149839C/613E6463" Ref="D?"  Part="1" 
+AR Path="/614BE344/613E6463" Ref="D?"  Part="1" 
+F 0 "D?" H 9818 4917 50  0000 C CNN
+F 1 "B_LED" H 9818 4826 50  0000 C CNN
+F 2 "LED_SMD:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 9825 4700 50  0001 C CNN
+F 3 "~" H 9825 4700 50  0001 C CNN
+	1    9825 4700
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	10050 4700 9975 4700
+Wire Wire Line
+	8675 4700 9675 4700
+$Comp
+L Device:LED D?
+U 1 1 613E646F
+P 9550 4800
+AR Path="/613E646F" Ref="D?"  Part="1" 
+AR Path="/613B6C1F/613E646F" Ref="D?"  Part="1" 
+AR Path="/6149839C/613E646F" Ref="D?"  Part="1" 
+AR Path="/614BE344/613E646F" Ref="D?"  Part="1" 
+F 0 "D?" H 9543 5017 50  0000 C CNN
+F 1 "B_LED" H 9543 4926 50  0000 C CNN
+F 2 "LED_SMD:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 9550 4800 50  0001 C CNN
+F 3 "~" H 9550 4800 50  0001 C CNN
+	1    9550 4800
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	10050 4800 9700 4800
+Wire Wire Line
+	8675 4800 9400 4800
+$Comp
+L Device:LED D?
+U 1 1 613E647B
+P 9275 4900
+AR Path="/613E647B" Ref="D?"  Part="1" 
+AR Path="/613B6C1F/613E647B" Ref="D?"  Part="1" 
+AR Path="/6149839C/613E647B" Ref="D?"  Part="1" 
+AR Path="/614BE344/613E647B" Ref="D?"  Part="1" 
+F 0 "D?" H 9268 5117 50  0000 C CNN
+F 1 "B_LED" H 9268 5026 50  0000 C CNN
+F 2 "LED_SMD:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 9275 4900 50  0001 C CNN
+F 3 "~" H 9275 4900 50  0001 C CNN
+	1    9275 4900
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:LED D?
+U 1 1 613E6485
+P 9000 5000
+AR Path="/613E6485" Ref="D?"  Part="1" 
+AR Path="/613B6C1F/613E6485" Ref="D?"  Part="1" 
+AR Path="/6149839C/613E6485" Ref="D?"  Part="1" 
+AR Path="/614BE344/613E6485" Ref="D?"  Part="1" 
+F 0 "D?" H 8993 5217 50  0000 C CNN
+F 1 "B_LED" H 8993 5126 50  0000 C CNN
+F 2 "LED_SMD:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 9000 5000 50  0001 C CNN
+F 3 "~" H 9000 5000 50  0001 C CNN
+	1    9000 5000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8675 4900 9125 4900
+Wire Wire Line
+	9150 5000 10050 5000
+Wire Wire Line
+	9425 4900 10050 4900
+$Comp
+L Device:LED D?
+U 1 1 613E6492
+P 9825 5100
+AR Path="/613E6492" Ref="D?"  Part="1" 
+AR Path="/613B6C1F/613E6492" Ref="D?"  Part="1" 
+AR Path="/6149839C/613E6492" Ref="D?"  Part="1" 
+AR Path="/614BE344/613E6492" Ref="D?"  Part="1" 
+F 0 "D?" H 9818 5317 50  0000 C CNN
+F 1 "B_LED" H 9818 5226 50  0000 C CNN
+F 2 "LED_SMD:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 9825 5100 50  0001 C CNN
+F 3 "~" H 9825 5100 50  0001 C CNN
+	1    9825 5100
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8675 5100 9675 5100
+$Comp
+L Device:LED D?
+U 1 1 613E649D
+P 9550 5200
+AR Path="/613E649D" Ref="D?"  Part="1" 
+AR Path="/613B6C1F/613E649D" Ref="D?"  Part="1" 
+AR Path="/6149839C/613E649D" Ref="D?"  Part="1" 
+AR Path="/614BE344/613E649D" Ref="D?"  Part="1" 
+F 0 "D?" H 9543 5417 50  0000 C CNN
+F 1 "B_LED" H 9543 5326 50  0000 C CNN
+F 2 "LED_SMD:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 9550 5200 50  0001 C CNN
+F 3 "~" H 9550 5200 50  0001 C CNN
+	1    9550 5200
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	10050 5200 9700 5200
+Wire Wire Line
+	8675 5200 9400 5200
+$Comp
+L Device:LED D?
+U 1 1 613E64A9
+P 9275 5300
+AR Path="/613E64A9" Ref="D?"  Part="1" 
+AR Path="/613B6C1F/613E64A9" Ref="D?"  Part="1" 
+AR Path="/6149839C/613E64A9" Ref="D?"  Part="1" 
+AR Path="/614BE344/613E64A9" Ref="D?"  Part="1" 
+F 0 "D?" H 9268 5517 50  0000 C CNN
+F 1 "B_LED" H 9268 5426 50  0000 C CNN
+F 2 "LED_SMD:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 9275 5300 50  0001 C CNN
+F 3 "~" H 9275 5300 50  0001 C CNN
+	1    9275 5300
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:LED D?
+U 1 1 613E64B3
+P 9000 5400
+AR Path="/613E64B3" Ref="D?"  Part="1" 
+AR Path="/613B6C1F/613E64B3" Ref="D?"  Part="1" 
+AR Path="/6149839C/613E64B3" Ref="D?"  Part="1" 
+AR Path="/614BE344/613E64B3" Ref="D?"  Part="1" 
+F 0 "D?" H 8993 5617 50  0000 C CNN
+F 1 "B_LED" H 8993 5526 50  0000 C CNN
+F 2 "LED_SMD:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 9000 5400 50  0001 C CNN
+F 3 "~" H 9000 5400 50  0001 C CNN
+	1    9000 5400
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8675 5300 9125 5300
+Wire Wire Line
+	9150 5400 10050 5400
+Wire Wire Line
+	9425 5300 10050 5300
+Wire Wire Line
+	8850 5000 8675 5000
+Wire Wire Line
+	9975 4300 10050 4300
+Wire Wire Line
+	10050 4300 10050 4200
+Connection ~ 10050 4200
+Wire Wire Line
+	10050 4300 10050 4400
+Connection ~ 10050 4300
+Connection ~ 10050 4400
+Wire Wire Line
+	10050 4400 10050 4500
+Connection ~ 10050 4500
+Wire Wire Line
+	10050 4500 10050 4600
+Connection ~ 10050 4600
+Wire Wire Line
+	10050 4600 10050 4700
+Connection ~ 10050 4700
+Wire Wire Line
+	10050 4700 10050 4800
+Connection ~ 10050 4800
+Wire Wire Line
+	10050 4800 10050 4900
+Connection ~ 10050 4900
+Wire Wire Line
+	10050 4900 10050 5000
+Connection ~ 10050 5000
+Wire Wire Line
+	10050 5000 10050 5100
+Connection ~ 10050 5200
+Wire Wire Line
+	10050 5200 10050 5300
+Connection ~ 10050 5300
+Wire Wire Line
+	10050 5300 10050 5400
+Wire Wire Line
+	8850 5400 8675 5400
+$Comp
+L power:GND #PWR?
+U 1 1 613E64D9
+P 8300 6075
+AR Path="/613E64D9" Ref="#PWR?"  Part="1" 
+AR Path="/613B6C1F/613E64D9" Ref="#PWR?"  Part="1" 
+AR Path="/6149839C/613E64D9" Ref="#PWR?"  Part="1" 
+AR Path="/614BE344/613E64D9" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 8300 5825 50  0001 C CNN
+F 1 "GND" H 8305 5902 50  0000 C CNN
+F 2 "" H 8300 6075 50  0001 C CNN
+F 3 "" H 8300 6075 50  0001 C CNN
+	1    8300 6075
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8300 6075 8300 5925
+$Comp
+L Device:C C?
+U 1 1 613E64E4
+P 7150 4200
+AR Path="/613E64E4" Ref="C?"  Part="1" 
+AR Path="/613B6C1F/613E64E4" Ref="C?"  Part="1" 
+AR Path="/6149839C/613E64E4" Ref="C?"  Part="1" 
+AR Path="/614BE344/613E64E4" Ref="C?"  Part="1" 
+F 0 "C?" V 6898 4200 50  0000 C CNN
+F 1 "100N" V 6989 4200 50  0000 C CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder" H 7188 4050 50  0001 C CNN
+F 3 "~" H 7150 4200 50  0001 C CNN
+	1    7150 4200
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 613E64EE
+P 7150 4425
+AR Path="/613E64EE" Ref="#PWR?"  Part="1" 
+AR Path="/613B6C1F/613E64EE" Ref="#PWR?"  Part="1" 
+AR Path="/6149839C/613E64EE" Ref="#PWR?"  Part="1" 
+AR Path="/614BE344/613E64EE" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 7150 4175 50  0001 C CNN
+F 1 "GND" H 7155 4252 50  0000 C CNN
+F 2 "" H 7150 4425 50  0001 C CNN
+F 3 "" H 7150 4425 50  0001 C CNN
+	1    7150 4425
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7150 4425 7150 4350
+Wire Wire Line
+	7150 4050 7150 3900
+Wire Wire Line
+	7150 3900 7925 3900
+Wire Wire Line
+	9975 5100 10050 5100
+Connection ~ 10050 5100
+Wire Wire Line
+	10050 5100 10050 5200
+$Comp
+L Device:R R?
+U 1 1 613E64FE
+P 7725 5750
+AR Path="/613E64FE" Ref="R?"  Part="1" 
+AR Path="/613B6C1F/613E64FE" Ref="R?"  Part="1" 
+AR Path="/6149839C/613E64FE" Ref="R?"  Part="1" 
+AR Path="/614BE344/613E64FE" Ref="R?"  Part="1" 
+F 0 "R?" H 7795 5796 50  0000 L CNN
+F 1 "3K" H 7795 5705 50  0000 L CNN
+F 2 "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder" V 7655 5750 50  0001 C CNN
+F 3 "~" H 7725 5750 50  0001 C CNN
+	1    7725 5750
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7925 5525 7725 5525
+Wire Wire Line
+	7725 5525 7725 5600
+$Comp
+L power:GND #PWR?
+U 1 1 613E650A
+P 7725 6075
+AR Path="/613E650A" Ref="#PWR?"  Part="1" 
+AR Path="/613B6C1F/613E650A" Ref="#PWR?"  Part="1" 
+AR Path="/6149839C/613E650A" Ref="#PWR?"  Part="1" 
+AR Path="/614BE344/613E650A" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 7725 5825 50  0001 C CNN
+F 1 "GND" H 7730 5902 50  0000 C CNN
+F 2 "" H 7725 6075 50  0001 C CNN
+F 3 "" H 7725 6075 50  0001 C CNN
+	1    7725 6075
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7725 6075 7725 5900
+$Comp
+L power:+3.3V #PWR?
+U 1 1 613E6515
+P 7150 3800
+AR Path="/613E6515" Ref="#PWR?"  Part="1" 
+AR Path="/613B6C1F/613E6515" Ref="#PWR?"  Part="1" 
+AR Path="/6149839C/613E6515" Ref="#PWR?"  Part="1" 
+AR Path="/614BE344/613E6515" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 7150 3650 50  0001 C CNN
+F 1 "+3.3V" H 7165 3973 50  0000 C CNN
+F 2 "" H 7150 3800 50  0001 C CNN
+F 3 "" H 7150 3800 50  0001 C CNN
+	1    7150 3800
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7150 3800 7150 3900
+Connection ~ 7150 3900
+Text HLabel 7850 4550 0    50   Input ~ 0
+~CS~_BLUE
+Wire Wire Line
+	7850 4550 7925 4550
+Text HLabel 7850 4850 0    50   Input ~ 0
+SPI1_CLK
+Wire Wire Line
+	7850 4850 7925 4850
+Text HLabel 7850 4950 0    50   Input ~ 0
+~OE~
+Text HLabel 7850 5050 0    50   Input ~ 0
+~RESET~
+Wire Wire Line
+	7850 5050 7925 5050
+Wire Wire Line
+	7925 4950 7850 4950
+Wire Wire Line
+	2625 2000 1550 2000
+Wire Wire Line
+	1550 2000 1550 4650
+Wire Wire Line
+	1550 4650 2625 4650
+Wire Wire Line
+	2625 4750 1550 4750
+Wire Wire Line
+	1550 4750 1550 6500
+Wire Wire Line
+	1550 6500 6350 6500
+Wire Wire Line
+	6350 6500 6350 1900
+Wire Wire Line
+	6350 1900 7925 1900
+Wire Wire Line
+	7925 2000 6650 2000
+Wire Wire Line
+	6650 2000 6650 4650
+Wire Wire Line
+	7925 4650 6650 4650
+Text HLabel 7850 4750 0    50   Output ~ 0
+SPI1_MISO
+Wire Wire Line
+	7850 4750 7925 4750
+$EndSCHEMATC

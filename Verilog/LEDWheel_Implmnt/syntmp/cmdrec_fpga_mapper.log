@@ -1,0 +1,14 @@
+C:\lscc\iCEcube2.2020.12\synpbase\bin64\m_generic.exe  -prodtype  synplify_pro   -encrypt  -pro  -rundir  "C:\Users\thollis\Google Drive\LED Wheel\LEDWheel\LEDWheel_Implmnt"   -part iCE40UL640  -package CM36A    -maxfan 10000 -RWCheckOnRam 0 -block -pipe -fixgatedclocks 1 -fixgeneratedclocks 1 -summaryfile "C:\Users\thollis\Google Drive\LED Wheel\LEDWheel\LEDWheel_Implmnt\synlog\report\LEDWheel_fpga_mapper.xml"  -flow mapping  -multisrs  -oedif  "C:\Users\thollis\Google Drive\LED Wheel\LEDWheel\LEDWheel_Implmnt\LEDWheel.edf"   -autoconstraint  -freq 1.000   "C:\Users\thollis\Google Drive\LED Wheel\LEDWheel\LEDWheel_Implmnt\synwork\LEDWheel_prem.srd"  -sap  "C:\Users\thollis\Google Drive\LED Wheel\LEDWheel\LEDWheel_Implmnt\LEDWheel.sap"  -otap  "C:\Users\thollis\Google Drive\LED Wheel\LEDWheel\LEDWheel_Implmnt\LEDWheel.tap"  -omap  "C:\Users\thollis\Google Drive\LED Wheel\LEDWheel\LEDWheel_Implmnt\LEDWheel.map"  -devicelib  C:\lscc\iCEcube2.2020.12\synpbase\lib\generic\sb_ice40.v  -sap  "C:\Users\thollis\Google Drive\LED Wheel\LEDWheel\LEDWheel_Implmnt\LEDWheel.sap"  -ologparam  "C:\Users\thollis\Google Drive\LED Wheel\LEDWheel\LEDWheel_Implmnt\syntmp\LEDWheel.plg"  -osyn  "C:\Users\thollis\Google Drive\LED Wheel\LEDWheel\LEDWheel_Implmnt\LEDWheel.srm"  -prjdir  "C:\Users\thollis\Google Drive\LED Wheel\LEDWheel\"  -prjname  LEDWheel_syn  -log  "C:\Users\thollis\Google Drive\LED Wheel\LEDWheel\LEDWheel_Implmnt\synlog\LEDWheel_fpga_mapper.srr" 
+rc:2 success:0 runtime:0
+file:C:\Users\thollis\Google Drive\LED Wheel\LEDWheel\LEDWheel_Implmnt\LEDWheel.edf|io:o|time:0|size:0|exec:0
+file:C:\Users\thollis\Google Drive\LED Wheel\LEDWheel\LEDWheel_Implmnt\synwork\LEDWheel_prem.srd|io:i|time:1616725114|size:2513|exec:0
+file:C:\Users\thollis\Google Drive\LED Wheel\LEDWheel\LEDWheel_Implmnt\LEDWheel.sap|io:o|time:1616725115|size:121|exec:0
+file:C:\Users\thollis\Google Drive\LED Wheel\LEDWheel\LEDWheel_Implmnt\LEDWheel.tap|io:o|time:0|size:0|exec:0
+file:C:\Users\thollis\Google Drive\LED Wheel\LEDWheel\LEDWheel_Implmnt\LEDWheel.map|io:o|time:1616644499|size:28|exec:0
+file:C:\lscc\iCEcube2.2020.12\synpbase\lib\generic\sb_ice40.v|io:i|time:1616630334|size:224837|exec:0
+file:C:\Users\thollis\Google Drive\LED Wheel\LEDWheel\LEDWheel_Implmnt\LEDWheel.sap|io:o|time:1616725115|size:121|exec:0
+file:"C:\Users\thollis\Google Drive\LED Wheel\LEDWheel\LEDWheel_Implmnt\syntmp\LEDWheel.plg"|io:o|time:0|size:0|exec:0
+file:C:\Users\thollis\Google Drive\LED Wheel\LEDWheel\LEDWheel_Implmnt\LEDWheel.srm|io:o|time:1616644498|size:3786|exec:0
+file:C:\Users\thollis\Google Drive\LED Wheel\LEDWheel\LEDWheel_Implmnt\synlog\LEDWheel_fpga_mapper.srr|io:o|time:1616725115|size:3397|exec:0
+file:C:\lscc\iCEcube2.2020.12\synpbase\bin\m_generic.exe|io:i|time:1616630331|size:17853440|exec:1
+file:C:\lscc\iCEcube2.2020.12\synpbase\bin64\m_generic.exe|io:i|time:1616630332|size:32355840|exec:1

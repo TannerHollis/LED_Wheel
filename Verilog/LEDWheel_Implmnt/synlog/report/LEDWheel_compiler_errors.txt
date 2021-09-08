@@ -1,0 +1,2 @@
+@E: CG389 :"C:\Users\thollis\Google Drive\LED Wheel\LEDWheel\LED_Wheel.v":18:13:18:29|Reference to undefined module LEDWheel_pll
+
