@@ -418,10 +418,8 @@ Text HLabel 3550 1800 0    50   Input ~ 0
 ~CS~_BLUE
 Wire Wire Line
 	3550 1800 3625 1800
-Text HLabel 3550 1900 0    50   Input ~ 0
+Text HLabel 7850 4650 0    50   Input ~ 0
 SPI1_MOSI
-Wire Wire Line
-	3550 1900 3625 1900
 Text HLabel 3550 2100 0    50   Input ~ 0
 SPI1_CLK
 Wire Wire Line
@@ -1686,31 +1684,11 @@ Wire Wire Line
 Wire Wire Line
 	7925 4950 7850 4950
 Wire Wire Line
-	3625 2000 2550 2000
-Wire Wire Line
-	2550 2000 2550 4650
-Wire Wire Line
-	2550 4650 3625 4650
-Wire Wire Line
-	3625 4750 2550 4750
-Wire Wire Line
-	2550 4750 2550 6500
-Wire Wire Line
 	2550 6500 6350 6500
 Wire Wire Line
-	6350 6500 6350 1900
-Wire Wire Line
-	6350 1900 7925 1900
-Wire Wire Line
-	7925 2000 6650 2000
-Wire Wire Line
-	6650 2000 6650 4650
-Wire Wire Line
-	7925 4650 6650 4650
-Text HLabel 7850 4750 0    50   Output ~ 0
+	6350 6500 6350 2000
+Text HLabel 3625 2000 0    50   Output ~ 0
 SPI1_MISO
-Wire Wire Line
-	7850 4750 7925 4750
 $Comp
 L Regulator_Linear:AZ1117-3.3 U11
 U 1 1 61409163
@@ -1892,4 +1870,24 @@ Wire Wire Line
 	8250 6200 8300 6200
 Wire Wire Line
 	8300 5925 8300 6200
+Wire Wire Line
+	7850 4650 7925 4650
+Wire Wire Line
+	6650 4750 7925 4750
+Wire Wire Line
+	6650 1900 7925 1900
+Wire Wire Line
+	6650 1900 6650 4750
+Wire Wire Line
+	7925 2000 6350 2000
+Wire Wire Line
+	3625 4650 2550 4650
+Wire Wire Line
+	2550 4650 2550 6500
+Wire Wire Line
+	3625 4750 2450 4750
+Wire Wire Line
+	2450 4750 2450 1900
+Wire Wire Line
+	2450 1900 3625 1900
 $EndSCHEMATC

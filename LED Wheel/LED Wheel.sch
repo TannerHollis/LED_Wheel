@@ -29,12 +29,12 @@ S 4500 5600 1125 1175
 U 613B6C1F
 F0 "Green LED Controller" 50
 F1 "G_LED_Controller.sch" 50
-F2 "SPI1_MOSI" I L 4500 6050 50 
+F2 "SPI1_MOSI" I L 4500 6350 50 
 F3 "SPI1_CLK" I L 4500 6250 50 
-F4 "~OE~" I L 4500 6350 50 
-F5 "~RESET~" I L 4500 6450 50 
-F6 "SPI1_MISO" O L 4500 6150 50 
-F7 "~CS~_GREEN" I L 4500 5950 50 
+F4 "~OE~" I L 4500 5950 50 
+F5 "~RESET~" I L 4500 6150 50 
+F6 "SPI1_MISO" O L 4500 6450 50 
+F7 "~CS~_GREEN" I L 4500 6050 50 
 F8 "G_12V" I L 4500 5725 50 
 F9 "G_GND" I L 4500 6675 50 
 $EndSheet
@@ -43,12 +43,12 @@ S 4525 4000 1075 1100
 U 6149839C
 F0 "Red LED Controller" 50
 F1 "R_LED_Controller.sch" 50
-F2 "SPI1_MOSI" I L 4525 4400 50 
+F2 "SPI1_MOSI" I L 4525 4700 50 
 F3 "SPI1_CLK" I L 4525 4600 50 
-F4 "~OE~" I L 4525 4700 50 
-F5 "~RESET~" I L 4525 4800 50 
-F6 "SPI1_MISO" O L 4525 4500 50 
-F7 "~CS~_RED" I L 4525 4300 50 
+F4 "~OE~" I L 4525 4300 50 
+F5 "~RESET~" I L 4525 4500 50 
+F6 "SPI1_MISO" O L 4525 4800 50 
+F7 "~CS~_RED" I L 4525 4400 50 
 F8 "R_GND" I L 4525 5025 50 
 F9 "R_12V" I L 4525 4075 50 
 $EndSheet
@@ -56,18 +56,6 @@ Wire Wire Line
 	2850 3275 4200 3275
 Wire Wire Line
 	4200 3400 4525 3400
-Wire Wire Line
-	2850 2675 2950 2675
-Wire Wire Line
-	2850 2775 3425 2775
-Wire Wire Line
-	2850 2875 3500 2875
-Wire Wire Line
-	2850 2975 3575 2975
-Wire Wire Line
-	2850 3075 3650 3075
-Wire Wire Line
-	2850 3175 3725 3175
 Wire Wire Line
 	4200 3400 4200 3275
 Wire Wire Line
@@ -109,12 +97,12 @@ S 4525 2375 1075 1100
 U 614BE344
 F0 "Blue LED Controller" 50
 F1 "B_LED_Controller.sch" 50
-F2 "~CS~_BLUE" I L 4525 2675 50 
-F3 "SPI1_MOSI" I L 4525 2775 50 
+F2 "~CS~_BLUE" I L 4525 2775 50 
+F3 "SPI1_MOSI" I L 4525 3075 50 
 F4 "SPI1_CLK" I L 4525 2975 50 
-F5 "~OE~" I L 4525 3075 50 
-F6 "~RESET~" I L 4525 3175 50 
-F7 "SPI1_MISO" O L 4525 2875 50 
+F5 "~OE~" I L 4525 2675 50 
+F6 "~RESET~" I L 4525 2875 50 
+F7 "SPI1_MISO" O L 4525 3175 50 
 F8 "B_12V" I L 4525 2450 50 
 F9 "B_GND" I L 4525 3400 50 
 $EndSheet
@@ -129,20 +117,6 @@ F 3 "~" H 2650 4500 50  0001 C CNN
 	1    2650 4500
 	-1   0    0    -1  
 $EndComp
-Wire Wire Line
-	2850 4300 2950 4300
-Wire Wire Line
-	4525 4400 3425 4400
-Wire Wire Line
-	2850 4500 3500 4500
-Wire Wire Line
-	2850 4600 3575 4600
-Wire Wire Line
-	4525 4700 3650 4700
-Wire Wire Line
-	4525 4800 3725 4800
-Wire Wire Line
-	2850 4900 4200 4900
 Wire Wire Line
 	4200 5025 4525 5025
 Wire Wire Line
@@ -193,18 +167,6 @@ F 3 "~" H 2625 6150 50  0001 C CNN
 	-1   0    0    -1  
 $EndComp
 Wire Wire Line
-	2825 5950 2950 5950
-Wire Wire Line
-	4500 6050 3425 6050
-Wire Wire Line
-	2825 6150 3500 6150
-Wire Wire Line
-	2825 6250 3575 6250
-Wire Wire Line
-	4500 6350 3650 6350
-Wire Wire Line
-	4500 6450 3725 6450
-Wire Wire Line
 	2825 6550 4175 6550
 Wire Wire Line
 	4175 6675 4500 6675
@@ -244,128 +206,6 @@ $EndComp
 Wire Wire Line
 	4175 5625 4175 5725
 Connection ~ 4175 5725
-Wire Wire Line
-	3425 2775 3425 4400
-Connection ~ 3425 2775
-Wire Wire Line
-	3425 2775 4525 2775
-Connection ~ 3425 4400
-Wire Wire Line
-	3425 4400 2850 4400
-Wire Wire Line
-	3425 4400 3425 6050
-Connection ~ 3425 6050
-Wire Wire Line
-	3425 6050 2825 6050
-Wire Wire Line
-	3500 2875 3500 4500
-Connection ~ 3500 2875
-Wire Wire Line
-	3500 2875 4525 2875
-Connection ~ 3500 4500
-Wire Wire Line
-	3500 4500 4525 4500
-Wire Wire Line
-	3500 4500 3500 6150
-Connection ~ 3500 6150
-Wire Wire Line
-	3500 6150 4500 6150
-Wire Wire Line
-	3575 2975 3575 4600
-Connection ~ 3575 2975
-Wire Wire Line
-	3575 2975 4525 2975
-Connection ~ 3575 4600
-Wire Wire Line
-	3575 4600 4525 4600
-Wire Wire Line
-	3575 4600 3575 6250
-Connection ~ 3575 6250
-Wire Wire Line
-	3575 6250 4500 6250
-Wire Wire Line
-	3650 3075 3650 4700
-Connection ~ 3650 3075
-Wire Wire Line
-	3650 3075 4525 3075
-Connection ~ 3650 4700
-Wire Wire Line
-	3650 4700 2850 4700
-Wire Wire Line
-	3650 4700 3650 6350
-Connection ~ 3650 6350
-Wire Wire Line
-	3650 6350 2825 6350
-Wire Wire Line
-	3725 3175 3725 4800
-Connection ~ 3725 3175
-Wire Wire Line
-	3725 3175 4525 3175
-Connection ~ 3725 4800
-Wire Wire Line
-	3725 4800 2850 4800
-Wire Wire Line
-	3725 4800 3725 6450
-Connection ~ 3725 6450
-Wire Wire Line
-	3725 6450 2825 6450
-Text GLabel 2775 3425 0    50   Input ~ 0
-~CS~_BLUE
-Wire Wire Line
-	2775 3425 2950 3425
-Wire Wire Line
-	2950 3425 2950 2675
-Connection ~ 2950 2675
-Wire Wire Line
-	2950 2675 4525 2675
-Text GLabel 2775 5050 0    50   Input ~ 0
-~CS~_RED
-Wire Wire Line
-	2775 5050 2950 5050
-Wire Wire Line
-	2950 5050 2950 4300
-Connection ~ 2950 4300
-Wire Wire Line
-	2950 4300 4525 4300
-Text GLabel 2775 6700 0    50   Input ~ 0
-~CS~_GREEN
-Wire Wire Line
-	2775 6700 2950 6700
-Wire Wire Line
-	2950 6700 2950 5950
-Text GLabel 3025 2250 0    50   Input ~ 0
-SPI1_MOSI
-Wire Wire Line
-	3025 2250 3425 2250
-Wire Wire Line
-	3425 2250 3425 2775
-Text GLabel 3025 2150 0    50   Input ~ 0
-SPI1_MISO
-Wire Wire Line
-	3025 2150 3500 2150
-Wire Wire Line
-	3500 2150 3500 2875
-Connection ~ 2950 5950
-Wire Wire Line
-	2950 5950 4500 5950
-Text GLabel 3025 2050 0    50   Input ~ 0
-SPI1_CLK
-Text GLabel 3025 1950 0    35   Input ~ 0
-~0E~
-Text GLabel 3025 1850 0    35   Input ~ 0
-~RESET~
-Wire Wire Line
-	3025 1850 3725 1850
-Wire Wire Line
-	3725 1850 3725 3175
-Wire Wire Line
-	3650 3075 3650 1950
-Wire Wire Line
-	3650 1950 3025 1950
-Wire Wire Line
-	3025 2050 3575 2050
-Wire Wire Line
-	3575 2050 3575 2975
 $Comp
 L Mechanical:MountingHole H1
 U 1 1 6156046E
@@ -399,4 +239,107 @@ F 3 "~" H 7950 4900 50  0001 C CNN
 	1    7950 4900
 	1    0    0    -1  
 $EndComp
+Wire Wire Line
+	2850 4900 4200 4900
+Wire Wire Line
+	2850 2775 4525 2775
+Wire Wire Line
+	2850 4400 4525 4400
+Wire Wire Line
+	2825 6050 4500 6050
+Wire Wire Line
+	3575 6250 4500 6250
+Wire Wire Line
+	2825 6250 3575 6250
+Connection ~ 3575 6250
+Wire Wire Line
+	2850 4600 3575 4600
+Wire Wire Line
+	3575 4600 4525 4600
+Connection ~ 3575 4600
+Wire Wire Line
+	3575 4600 3575 6250
+Wire Wire Line
+	3500 6150 4500 6150
+Wire Wire Line
+	2825 6150 3500 6150
+Connection ~ 3500 6150
+Wire Wire Line
+	3500 4500 4525 4500
+Wire Wire Line
+	2850 4500 3500 4500
+Connection ~ 3500 4500
+Wire Wire Line
+	3500 4500 3500 6150
+Wire Wire Line
+	3725 6450 4500 6450
+Wire Wire Line
+	2825 6450 3725 6450
+Connection ~ 3725 6450
+Wire Wire Line
+	3725 4800 4525 4800
+Wire Wire Line
+	2850 4800 3725 4800
+Connection ~ 3725 4800
+Wire Wire Line
+	3725 4800 3725 6450
+Wire Wire Line
+	3650 6350 4500 6350
+Wire Wire Line
+	2825 6350 3650 6350
+Connection ~ 3650 6350
+Wire Wire Line
+	2850 4700 3650 4700
+Wire Wire Line
+	3650 4700 4525 4700
+Connection ~ 3650 4700
+Wire Wire Line
+	3650 4700 3650 6350
+Wire Wire Line
+	3425 5950 4500 5950
+Wire Wire Line
+	2825 5950 3425 5950
+Connection ~ 3425 5950
+Wire Wire Line
+	3425 4300 4525 4300
+Wire Wire Line
+	2850 4300 3425 4300
+Connection ~ 3425 4300
+Wire Wire Line
+	3425 4300 3425 5950
+Wire Wire Line
+	3575 2975 4525 2975
+Wire Wire Line
+	2850 2975 3575 2975
+Connection ~ 3575 2975
+Wire Wire Line
+	3575 2975 3575 4600
+Wire Wire Line
+	3500 2875 4525 2875
+Wire Wire Line
+	2850 2875 3500 2875
+Connection ~ 3500 2875
+Wire Wire Line
+	3500 2875 3500 4500
+Wire Wire Line
+	3725 3175 4525 3175
+Wire Wire Line
+	2850 3175 3725 3175
+Connection ~ 3725 3175
+Wire Wire Line
+	3725 3175 3725 4800
+Wire Wire Line
+	2850 3075 3650 3075
+Wire Wire Line
+	3650 3075 4525 3075
+Connection ~ 3650 3075
+Wire Wire Line
+	3650 3075 3650 4700
+Wire Wire Line
+	3425 2675 4525 2675
+Wire Wire Line
+	2850 2675 3425 2675
+Connection ~ 3425 2675
+Wire Wire Line
+	3425 2675 3425 4300
 $EndSCHEMATC
