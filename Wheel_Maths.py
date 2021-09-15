@@ -2,14 +2,14 @@ import math
 from matplotlib import pyplot
 import numpy
 
-mem_storage = 8e9 #1Gbits
+mem_storage = 8e6 #1Gbits
 fps = 15
 timer_freq = 100e6 #100MHz
 sys_freq = 480e6
-proc_margin = 0.10
-n_DRIVERS = 20
+proc_margin = 0.50
+n_DRIVERS = 4
 n_LEDS = n_DRIVERS * 16 #LEDS per driver
-r = 20 #cm
+r = 32 #cm
 a = 1 #theta spacing constant
 d_PIXEL = r / (n_LEDS) #cm
 d_THETA = math.degrees(math.acos(1 - (a*a)/(2*n_LEDS*n_LEDS)))
@@ -43,7 +43,7 @@ for update in range(frame_len):
 
 print("Bytes of data in frame: {:.0f}".format(image_PIXELS**2*3))
 print("Maximum frames in memory: {:.0f}".format(mem_storage / 8 / (image_PIXELS**2*3)))
-print("Total time in memory({:.0f}MB @ {}fps): {:.0f} seconds".format(mem_storage / 8 /  1e6, fps, mem_storage / 8 / (image_PIXELS**2*3) / fps))
+print("Total time in memory({:.0f}MB @ {}fps): {:.3f} seconds".format(mem_storage / 8 /  1e6, fps, mem_storage / 8 / (image_PIXELS**2*3) / fps))
 
 def mem_comparison(LEDS):
     sLED = 16

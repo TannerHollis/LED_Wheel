@@ -342,4 +342,120 @@ Wire Wire Line
 Connection ~ 3425 2675
 Wire Wire Line
 	3425 2675 3425 4300
+$Comp
+L Connector_Generic:Conn_01x01 J4
+U 1 1 613F8E08
+P 8200 3000
+F 0 "J4" H 8280 3042 50  0000 L CNN
+F 1 "G_12V" H 8280 2951 50  0000 L CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical" H 8200 3000 50  0001 C CNN
+F 3 "~" H 8200 3000 50  0001 C CNN
+	1    8200 3000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x01 J5
+U 1 1 613F9BBC
+P 8200 3200
+F 0 "J5" H 8280 3242 50  0000 L CNN
+F 1 "R_12V" H 8280 3151 50  0000 L CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical" H 8200 3200 50  0001 C CNN
+F 3 "~" H 8200 3200 50  0001 C CNN
+	1    8200 3200
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x01 J6
+U 1 1 613FA00C
+P 8200 3400
+F 0 "J6" H 8280 3442 50  0000 L CNN
+F 1 "B_12V" H 8280 3351 50  0000 L CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical" H 8200 3400 50  0001 C CNN
+F 3 "~" H 8200 3400 50  0001 C CNN
+	1    8200 3400
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+12V #PWR0101
+U 1 1 613FBD9A
+P 7700 2900
+F 0 "#PWR0101" H 7700 2750 50  0001 C CNN
+F 1 "+12V" H 7715 3073 50  0000 C CNN
+F 2 "" H 7700 2900 50  0001 C CNN
+F 3 "" H 7700 2900 50  0001 C CNN
+	1    7700 2900
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7700 2900 7700 3000
+Wire Wire Line
+	7700 3000 8000 3000
+Wire Wire Line
+	7700 3000 7700 3200
+Wire Wire Line
+	7700 3200 8000 3200
+Connection ~ 7700 3000
+Wire Wire Line
+	8000 3400 7700 3400
+Wire Wire Line
+	7700 3400 7700 3200
+Connection ~ 7700 3200
+$Comp
+L Connector:TestPoint TP1
+U 1 1 6140DAE7
+P 8025 3700
+F 0 "TP1" V 7979 3888 50  0000 L CNN
+F 1 "Reflector" V 8070 3888 50  0000 L CNN
+F 2 "Project_Library:Reflector 2x4mm" H 8225 3700 50  0001 C CNN
+F 3 "~" H 8225 3700 50  0001 C CNN
+	1    8025 3700
+	0    1    1    0   
+$EndComp
+$Comp
+L Connector:TestPoint TP2
+U 1 1 6140E191
+P 8025 3875
+F 0 "TP2" V 7979 4063 50  0000 L CNN
+F 1 "Reflector" V 8070 4063 50  0000 L CNN
+F 2 "Project_Library:Reflector 2x4mm" H 8225 3875 50  0001 C CNN
+F 3 "~" H 8225 3875 50  0001 C CNN
+	1    8025 3875
+	0    1    1    0   
+$EndComp
+$Comp
+L Connector:TestPoint TP3
+U 1 1 6140E405
+P 8025 4050
+F 0 "TP3" V 7979 4238 50  0000 L CNN
+F 1 "Reflector" V 8070 4238 50  0000 L CNN
+F 2 "Project_Library:Reflector 2x4mm" H 8225 4050 50  0001 C CNN
+F 3 "~" H 8225 4050 50  0001 C CNN
+	1    8025 4050
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	8025 3700 7700 3700
+Wire Wire Line
+	8025 3875 7700 3875
+Wire Wire Line
+	7700 3875 7700 3700
+Wire Wire Line
+	8025 4050 7700 4050
+Wire Wire Line
+	7700 4050 7700 3875
+Connection ~ 7700 3875
+$Comp
+L power:GND #PWR?
+U 1 1 614231D6
+P 7700 4125
+F 0 "#PWR?" H 7700 3875 50  0001 C CNN
+F 1 "GND" H 7705 3952 50  0000 C CNN
+F 2 "" H 7700 4125 50  0001 C CNN
+F 3 "" H 7700 4125 50  0001 C CNN
+	1    7700 4125
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7700 4125 7700 4050
+Connection ~ 7700 4050
 $EndSCHEMATC
